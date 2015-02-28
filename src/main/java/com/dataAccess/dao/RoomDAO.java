@@ -70,11 +70,41 @@ public class RoomDAO implements DAO<Room> {
 
     @Override
     public void update(Room room) {
+        EntityManager em = emf.createEntityManager();
+        EntityTransaction t = em.getTransaction();
+
+        try{
+            t.begin();
+            em.merge(room);
+            t.commit();
+        }catch(Exception e){
+            e.printStackTrace();
+        }finally {
+            if (t.isActive()){
+                t.rollback();
+                em.close();
+            }
+        }
 
     }
 
     @Override
     public void delete(Room room) {
+        EntityManager em = emf.createEntityManager();
+        EntityTransaction t = em.getTransaction();
+
+        try{
+            t.begin();
+            em.remove(room);
+            t.commit();
+        }catch(Exception e){
+            e.printStackTrace();
+        }finally {
+            if (t.isActive()){
+                t.rollback();
+                em.close();
+            }
+        }
 
     }
 }

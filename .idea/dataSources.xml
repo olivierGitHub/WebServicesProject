@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DataSourceManagerImpl" format="xml" hash="1007284237">
+  <component name="DataSourceManagerImpl" format="xml" hash="1303762730">
     <data-source source="LOCAL" name="NewPersistenceUnit" uuid="34f4364c-982d-46f7-ae38-bacf14c50ecb">
       <driver-ref>mysql</driver-ref>
       <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
@@ -8,6 +8,18 @@
       <user-name>root</user-name>
       <user-password>dfcbdfcedfc7dfc3dfc4</user-password>
       <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="WebServicesProjectPU" uuid="0a466bc9-7529-4506-8028-baa2a4259854">
+      <driver-ref>mysql</driver-ref>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/webproject</jdbc-url>
+      <user-name>root</user-name>
+      <user-password>dfcbdfcedfc7dfc3dfc4</user-password>
+      <libraries>
+        <library>
+          <url>file://C:\Users\oliver\.m2\repository\mysql\mysql-connector-java\5.1.28\mysql-connector-java-5.1.28.jar</url>
+        </library>
+      </libraries>
     </data-source>
   </component>
 </project>

@@ -70,11 +70,41 @@ public class CustomerDAO implements DAO<Customer> {
 
     @Override
     public void update(Customer customer) {
+        EntityManager em = emf.createEntityManager();
+        EntityTransaction t = em.getTransaction();
+
+        try{
+            t.begin();
+            em.merge(customer);
+            t.commit();
+        }catch(Exception e){
+            e.printStackTrace();
+        }finally {
+            if (t.isActive()){
+                t.rollback();
+                em.close();
+            }
+        }
 
     }
 
     @Override
     public void delete(Customer customer) {
+        EntityManager em = emf.createEntityManager();
+        EntityTransaction t = em.getTransaction();
+
+        try{
+            t.begin();
+            em.remove(customer);
+            t.commit();
+        }catch(Exception e){
+            e.printStackTrace();
+        }finally {
+            if (t.isActive()){
+                t.rollback();
+                em.close();
+            }
+        }
 
     }
 }

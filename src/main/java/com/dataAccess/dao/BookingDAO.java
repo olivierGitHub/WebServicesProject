@@ -69,11 +69,39 @@ public class BookingDAO implements DAO<Booking>{
 
     @Override
     public void update(Booking booking) {
+        EntityManager em = emf.createEntityManager();
+        EntityTransaction t = em.getTransaction();
 
+        try{
+            t.begin();
+            em.merge(booking);
+            t.commit();
+        }catch(Exception e){
+            e.printStackTrace();
+        }finally {
+            if (t.isActive()){
+                t.rollback();
+                em.close();
+            }
+        }
     }
 
     @Override
     public void delete(Booking booking) {
+        EntityManager em = emf.createEntityManager();
+        EntityTransaction t = em.getTransaction();
 
+        try{
+            t.begin();
+            em.remove(booking);
+            t.commit();
+        }catch(Exception e){
+            e.printStackTrace();
+        }finally {
+            if (t.isActive()){
+                t.rollback();
+                em.close();
+            }
+        }
     }
 }

@@ -3,17 +3,17 @@
  */
 
 /* global angular */
-angular.module('app', ['ui-router'])
+angular.module('myApp', ['ui-router', 'customerApp'])
 
-    .config(function ($stateProvider, $urlRouterProvider){
+    .config(function ($urlRouterProvider, $stateProvider){
         'use strict';
-       /* var customer = {
+        /*var customer = {
             name: 'customer',  //mandatory
             url: '/customer',
             templateUrl: 'customer.html'
-        }
+        };
 
-        var createCustomer = {
+        /*var createCustomer = {
             name: 'customer.create', //mandatory. This counter-intuitive requirement addressed in issue #368
             parent: customer,  //mandatory
             url: '/create',
@@ -33,9 +33,10 @@ angular.module('app', ['ui-router'])
         $stateProvider
             .state('customer', {
                 url: '/customer',
-                templateUrl: 'customer/customer.html'
+                templateUrl: 'customer/customer.html',
+                controller: 'customerCtrl'
             })
-            .state('customer.create', {
+            /*.state('customer.create', {
                 parent: customer,  //mandatory
                 url: '/create',
                 templateUrl: 'customer/customer.create.html'
@@ -44,14 +45,6 @@ angular.module('app', ['ui-router'])
                 parent: customer,  //mandatory
                 url: '/read',
                 templateUrl: 'customer/customer.read.html'
-            });
+            })*/;
 
-
-
-    })
-
-
-
-    .controller('myCtrl', function(){
-
-});
+    });

@@ -21,6 +21,7 @@ public class CustomerServices {
         }
 
     @GET
+    @Path("/create")
     @Produces("text/html")
     public String createCustomer(){
         return "<h2>Votre identifiant client est le: "
@@ -29,5 +30,29 @@ public class CustomerServices {
                 + "<h3> Nous sommes heureux de vous acceuillir dans notre hotel.</h3></br>"
                 + "<h3> La réservation de votre chambre est au nom de : "
                 + customer.getFirstName() + " " + customer.getLastName() + ".</br></h3>";
+    }
+
+    @Path("/read")
+    @Produces("application/json")
+    public Customer readCustomer(){
+        return CustomerDAO.getInstance().read(1);
+    }
+
+    @GET
+    @Path("/update")
+    @Produces("text/html")
+    public String updateCustomer(){
+        customer.setFirstName("Joe");
+        customer.setLastName("Higashi");
+        CustomerDAO.getInstance().update(customer);
+        return "<h3> Update customer completed</h3>";
+    }
+
+    @GET
+    @Path("/delete")
+    @Produces("text/html")
+    public String deleteCustomer(){
+        CustomerDAO.getInstance().delete(customer);
+        return "<h3> Delete customer completed</h3>";
     }
 }

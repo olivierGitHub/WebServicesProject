@@ -22,6 +22,7 @@ public class RoomServices {
     }
 
     @GET
+    @Path("/create")
     @Produces("text/html")
     public String createRoom(){
         return "<h2>Votre identifiant de chambre est le: "
@@ -31,6 +32,31 @@ public class RoomServices {
                 + "<h3> Votre numéro de chambre est le : " + room.getRoomNumber() + "</br>"
                 + "<h3> La dimesion de votre chambre est de : " + room.getRoomDimension() + "</br>"
                 + "<h3> Votre chambre est de type : " + room.getRoomType() + "</br></h3>";
-
     }
+
+    @Path("/read")
+    @Produces("application/json")
+    public Room readRoom(){
+        return RoomDAO.getInstance().read(1);
+    }
+
+    @GET
+    @Path("/update")
+    @Produces("text/html")
+    public String updateRoom(){
+        room.setRoomNumber(1111);
+        room.setRoomDimension(11);
+        room.setRoomType("Double");
+        RoomDAO.getInstance().update(room);
+        return "<h3> Update Completed</h3>";
+    }
+
+    @GET
+    @Path("/delete")
+    @Produces("text/html")
+    public String deleteRoom(){
+        RoomDAO.getInstance().delete(room);
+        return "<h3> Delete Completed</h3>";
+    }
+
 }

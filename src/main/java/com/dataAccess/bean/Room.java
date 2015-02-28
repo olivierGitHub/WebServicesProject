@@ -3,11 +3,13 @@ package com.dataAccess.bean;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
+import javax.xml.bind.annotation.XmlRootElement;
 
 /**
  * Created by oliver on 27/02/15.
  */
 @Entity
+@XmlRootElement
 public class Room {
 
     @Id

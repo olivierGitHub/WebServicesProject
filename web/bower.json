@@ -2,7 +2,7 @@
     "name": "WebServicesProject",
     "version": "1.0.0",
     "dependencies": {
-        "angular": "1.2.27",
-        "angular-ui-router": "*"
+        "angular": "1.2.13",
+        "angular-ui-router": "0.2.8"
     }
 }

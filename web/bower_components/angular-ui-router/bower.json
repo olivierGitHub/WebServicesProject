@@ -1,12 +1,13 @@
 {
   "name": "angular-ui-router",
-  "version": "0.2.13",
+  "version": "0.2.8",
   "main": "./release/angular-ui-router.js",
   "dependencies": {
     "angular": ">= 1.0.8"
   },
   "ignore": [
     "**/.*",
+    "*.js",
     "node_modules",
     "bower_components",
     "component.json",
@@ -15,9 +16,6 @@
     "config",
     "sample",
     "test",
-    "tests",
-    "ngdoc_assets",
-    "Gruntfile.js",
-    "files.js"
+    "tests"
   ]
 }
