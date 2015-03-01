@@ -25,9 +25,9 @@ angular.module('customerApp', [])
                 url: "http://localhost:8080/WebServicesProject/rest/customer/create",
                 params: {firstname: firstname, lastname: lastname}
             }).success(function(){
-                    console.log("Customer creation success OK");
+                    window.alert("Customer creation success OK");
             }).error(function(){
-                    console.log("Customer creation failed");
+                    window.alert("Customer creation failed");
             })}
 
         function read(idCustomer){
@@ -36,9 +36,9 @@ angular.module('customerApp', [])
                 url: "http://localhost:8080/WebServicesProject/rest/customer/read",
                 params: {idCustomer: idCustomer}
             }).success(function(){
-                    console.log("Customer reading success OK");
+                    window.alert("Customer reading success OK");
                 }).error(function(){
-                    console.log("Customer reading failed");
+                    window.alert("Customer reading failed");
                 })}
 
         function update(firstnameU, lastnameU){
@@ -47,9 +47,9 @@ angular.module('customerApp', [])
                 url :"http://localhost:8080/WebServicesProject/rest/customer/update",
                 params:{firstnameU:firstnameU, lastnameU:lastnameU}
             }).success(function(){
-                    console.log("Customer update success");
+                    window.alert("Customer update success");
             }).error(function(){
-                    console.log("Customer update failed");
+                    window.alert("Customer update failed");
             })
         }
 
@@ -59,9 +59,9 @@ angular.module('customerApp', [])
                 url: "http://localhost:8080/WebServicesProject/rest/customer/delete",
                 params: {idCustomerD: idCustomerD}
             }).success(function(){
-                    console.log("Customer removal success");
+                    window.alert("Customer removal success");
             }).error(function(){
-                    console.log("Customer removal failed");
+                    window.alert("Customer removal failed");
             })
         }
 

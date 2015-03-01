@@ -25,9 +25,9 @@ angular.module('roomApp', [])
                 url: "http://localhost:8080/WebServicesProject/rest/room/create",
                 params: {roomNumber:roomNumber, roomType:roomType, roomDimension:roomDimension}
             }).success(function(){
-                    console.log("Room creation success OK");
+                    window.alert("Room creation success OK");
                 }).error(function(){
-                    console.log("Room creation failed");
+                    window.alert("Room creation failed");
                 })}
 
         function read(idRoom){
@@ -36,9 +36,9 @@ angular.module('roomApp', [])
                 url: "http://localhost:8080/WebServicesProject/rest/room/read",
                 params: {idRoom: idRoom}
             }).success(function(){
-                    console.log("Room reading success OK");
+                    window.alert("Room reading success OK");
                 }).error(function(){
-                    console.log("Room reading failed");
+                    window.alert("Room reading failed");
                 })}
 
         function update(roomNumberU, roomTypeU, roomDimensionU){
@@ -47,9 +47,9 @@ angular.module('roomApp', [])
                 url :"http://localhost:8080/WebServicesProject/rest/room/update",
                 params:{roomNumberU:roomNumberU, roomTypeU:roomTypeU, roomDimensionU:roomDimensionU}
             }).success(function(){
-                    console.log("Room update success");
+                    window.alert("Room update success");
                 }).error(function(){
-                    console.log("Room update failed");
+                    window.alert("Room update failed");
                 })
         }
 
@@ -59,9 +59,9 @@ angular.module('roomApp', [])
                 url: "http://localhost:8080/WebServicesProject/rest/room/delete",
                 params: {idRoomD: idRoomD}
             }).success(function(){
-                    console.log("Room removal success");
+                    window.alert("Room removal success");
                 }).error(function(){
-                    console.log("Room removal failed");
+                    window.alert("Room removal failed");
                 })
         }
 

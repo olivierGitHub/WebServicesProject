@@ -28,9 +28,9 @@ angular.module('bookingApp', [])
                 url: "http://localhost:8080/WebServicesProject/rest/booking/create",
                 params: {bookingName:bookingName, arrivalDate:arrivalDate, departureDate:departureDate}
             }).success(function(){
-                    console.log("Booking creation success OK");
+                    window.alert("Booking creation success OK");
                 }).error(function(){
-                    console.log("Booking creation failed");
+                    window.alert("Booking creation failed");
                 })}
 
         function read(idBooking){
@@ -39,9 +39,9 @@ angular.module('bookingApp', [])
                 url: "http://localhost:8080/WebServicesProject/rest/booking/read",
                 params: {idBooking: idBooking}
             }).success(function(){
-                    console.log("Booking reading success OK");
+                    window.alert("Booking reading success OK");
             }).error(function(){
-                    console.log("Booking reading failed");
+                    window.alert("Booking reading failed");
             })}
 
         function update(bookingNameU, arrivalDateU, departureDateU){
@@ -50,9 +50,9 @@ angular.module('bookingApp', [])
                 url :"http://localhost:8080/WebServicesProject/rest/booking/update",
                 params:{bookingNameU:bookingNameU, arrivalDateU:arrivalDateU, departureDateU:departureDateU}
             }).success(function(){
-                    console.log("Booking update success");
+                    window.alert("Booking update success");
                 }).error(function(){
-                    console.log("Booking update failed");
+                    window.alert("Booking update failed");
                 })
         }
 
@@ -62,9 +62,9 @@ angular.module('bookingApp', [])
                 url: "http://localhost:8080/WebServicesProject/rest/booking/delete",
                 params: {idBookingD: idBookingD}
             }).success(function(){
-                    console.log("Booking removal success");
+                    window.alert("Booking removal success");
                 }).error(function(){
-                    console.log("Booking removal failed");
+                    window.alert("Booking removal failed");
                 })
         }
 
@@ -73,9 +73,9 @@ angular.module('bookingApp', [])
                 method: 'GET',
                 url: "http://localhost:8080/WebServicesProject/rest/booking/readALL"
             }).success(function(){
-                    console.log("Booking read ALL success");
+                    window.alert("Booking read ALL success");
                 }).error(function(){
-                    console.log("Booking read ALL failed");
+                    window.alert("Booking read ALL failed");
                 })
         }
 
