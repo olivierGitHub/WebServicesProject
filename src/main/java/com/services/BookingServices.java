@@ -6,6 +6,8 @@ import com.dataAccess.dao.BookingDAO;
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.List;
 
@@ -16,13 +18,15 @@ import java.util.List;
 public class BookingServices {
 
     Booking booking = new Booking();
-
         {
-            booking.setArrivalDate(new Date());
-            booking.setDepartureDate(new Date());
-
+            SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
+            try{
+                booking.setArrivalDate(sdf.parse("15/06/2015"));
+                booking.setDepartureDate(sdf.parse("22/06/2015"));
+            }catch(ParseException e){
+                e.printStackTrace();
+            }
         }
-
 
     @GET
     @Path("/create")
