@@ -21,11 +21,13 @@ public class BookingServices {
     @GET
     @Path("/create")
     @Produces("text/html")
-    public String createBooking(@QueryParam("arrivalDate") String arrivalDate,
+    public String createBooking(@QueryParam("bookingName") String bookingName,
+                                @QueryParam("arrivalDate") String arrivalDate,
                                 @QueryParam("departureDate") String departureDate){
         Booking booking1 = new Booking();
         SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
         try{
+            booking1.setBookingName(bookingName);
             booking1.setArrivalDate(sdf.parse(arrivalDate));
             booking1.setDepartureDate(sdf.parse(departureDate));
         }catch(ParseException e){
@@ -34,9 +36,9 @@ public class BookingServices {
         return "<h2>Votre identifiant de réservation est le: "
                 + BookingDAO.getInstance().create(booking1) + "</h2>"
                 + "</br>"
-                + "<h3> Nous sommes heureux de vous acceuillir dans notre hotel"
-                + " du   " + booking1.getArrivalDate() + "   au   " + booking1.getDepartureDate()
-                + ".</h3>";
+                + "<h3> Nous sommes heureux, Mr/Mme " + booking1.getBookingName()
+                +"de vous acceuillir dans notre hotel" + " du   " + booking1.getArrivalDate()
+                + "   au   " + booking1.getDepartureDate() + ".</h3>";
     }
 
     @GET
@@ -50,10 +52,11 @@ public class BookingServices {
     @Path("/update")
     @Produces("text/html")
     public String updateBooking(){
-        Booking booking1 =new Booking();
-            booking1.setArrivalDate(new Date());
-            booking1.setDepartureDate(new Date());
-        BookingDAO.getInstance().update(booking1);
+        Booking booking2 =new Booking();
+            booking2.setBookingName("Andy");
+            booking2.setArrivalDate(new Date());
+            booking2.setDepartureDate(new Date());
+        BookingDAO.getInstance().update(booking2);
         return "<h3> Update Completed</h3>";
     }
 

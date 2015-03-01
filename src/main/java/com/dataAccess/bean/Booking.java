@@ -16,11 +16,19 @@ public class Booking {
     @Id
     @GeneratedValue
     private int bookingNumber;
+    private String bookingName;
     private Date arrivalDate;
     private Date departureDate;
 
     public int getBookingNumber() {
         return bookingNumber;
+    }
+
+    public String getBookingName() {
+        return bookingName;
+    }
+    public void setBookingName(String bookingName) {
+        this.bookingName = bookingName;
     }
 
     public Date getArrivalDate() {
