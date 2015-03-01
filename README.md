@@ -14,3 +14,8 @@ Pour executer le projet, 3 étapes sont nécessaires:
   3- Creer sous MySQL UNIQUEMENT le schema "webproject":
       CREATE SCHEMA webproject
 
+REMARQUE:
+    Pour vérifier la bonne execution des requêtes, faire sous "Google Chrome":
+        F12 -> onglet "Network"
+            puis cliquer sur la requête correspondante
+
