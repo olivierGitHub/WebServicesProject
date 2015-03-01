@@ -6,7 +6,6 @@
     border-radius: 2px;
     margin-left: 20px;
     background-image:linear-gradient(white 60%, grey);
-
 }
 
 #readRoom{
@@ -17,7 +16,6 @@
     border-radius: 2px;
     margin-left: 350px;
     background-image:linear-gradient(white 60%, orange);
-
 }
 
 #updateRoom{
@@ -28,7 +26,6 @@
     border-radius: 2px;
     margin-left: 680px;
     background-image:linear-gradient(white 60%, grey);
-
 }
 
 #deleteRoom{
@@ -39,7 +36,6 @@
     border-radius: 2px;
     margin-left: 1010px;
     background-image:linear-gradient(white 60%, orange);
-
 }
 
 .formRoom{

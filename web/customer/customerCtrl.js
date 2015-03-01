@@ -2,8 +2,11 @@
  * Created by oliver on 28/02/15.
  */
 
+/*global angular*/
 angular.module('customerApp', [])
+
     .controller('customerCtrl', ['$scope', '$state', 'customerService', function ($scope, $state, customerService) {
+        'use strict';
         $scope.createCustomer = function(){
             customerService.createCustomer($scope.firstname, $scope.lastname);
         };
@@ -15,10 +18,11 @@ angular.module('customerApp', [])
         };
         $scope.deleteCustomer = function(){
             customerService.deleteCustomer($scope.idCustomerD);
-        }
+        };
     }])
 
-    .service('customerService', function ($http, $rootScope){
+    .service('customerService', function ($http){
+        'use strict';
         function create(firstname, lastname){
             $http({
                 method: 'GET',
@@ -28,7 +32,8 @@ angular.module('customerApp', [])
                     window.alert("Customer creation success OK");
             }).error(function(){
                     window.alert("Customer creation failed");
-            })}
+            });
+        }
 
         function read(idCustomer){
             $http({
@@ -39,7 +44,8 @@ angular.module('customerApp', [])
                     window.alert("Customer reading success OK");
                 }).error(function(){
                     window.alert("Customer reading failed");
-                })}
+                });
+        }
 
         function update(firstnameU, lastnameU){
             $http({
@@ -50,7 +56,7 @@ angular.module('customerApp', [])
                     window.alert("Customer update success");
             }).error(function(){
                     window.alert("Customer update failed");
-            })
+            });
         }
 
         function remove(idCustomerD){
@@ -62,7 +68,7 @@ angular.module('customerApp', [])
                     window.alert("Customer removal success");
             }).error(function(){
                     window.alert("Customer removal failed");
-            })
+            });
         }
 
         return {

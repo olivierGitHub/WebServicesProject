@@ -1,9 +1,10 @@
 /**
  * Created by oliver on 01/03/15.
  */
-
+/*global angular*/
 angular.module('bookingApp', [])
     .controller('bookingCtrl', ['$scope', '$state', 'bookingService', function ($scope, $state, bookingService) {
+        'use strict';
         $scope.createBooking = function(){
             bookingService.createBooking($scope.bookingName,$scope.arrivalDate,$scope.departureDate);
         };
@@ -15,13 +16,14 @@ angular.module('bookingApp', [])
         };
         $scope.deleteBooking = function(){
             bookingService.deleteBooking($scope.idBookingD);
-        }
+        };
         $scope.readAllBooking = function(){
             bookingService.readAllBooking();
-        }
+        };
     }])
 
-    .service('bookingService', function ($http, $rootScope){
+    .service('bookingService', function ($http){
+        'use strict';
         function create(bookingName, arrivalDate, departureDate){
             $http({
                 method: 'GET',
@@ -31,7 +33,8 @@ angular.module('bookingApp', [])
                     window.alert("Booking creation success OK");
                 }).error(function(){
                     window.alert("Booking creation failed");
-                })}
+                });
+        }
 
         function read(idBooking){
             $http({
@@ -42,7 +45,8 @@ angular.module('bookingApp', [])
                     window.alert("Booking reading success OK");
             }).error(function(){
                     window.alert("Booking reading failed");
-            })}
+            });
+        }
 
         function update(bookingNameU, arrivalDateU, departureDateU){
             $http({
@@ -53,7 +57,7 @@ angular.module('bookingApp', [])
                     window.alert("Booking update success");
                 }).error(function(){
                     window.alert("Booking update failed");
-                })
+                });
         }
 
         function remove(idBookingD){
@@ -65,7 +69,7 @@ angular.module('bookingApp', [])
                     window.alert("Booking removal success");
                 }).error(function(){
                     window.alert("Booking removal failed");
-                })
+                });
         }
 
         function readAll(){
@@ -76,7 +80,7 @@ angular.module('bookingApp', [])
                     window.alert("Booking read ALL success");
                 }).error(function(){
                     window.alert("Booking read ALL failed");
-                })
+                });
         }
 
         return {
