@@ -1,4 +1,20 @@
 <div ng-controller="customerCtrl">
     <h1>Hello customer</h1>
-    <div ui-view></div>
+    <div id="createCustomer" method="GET">
+        <form ng-submit="createCustomer()">
+            Enter text and hit enter:
+            <input type="text" ng-model="firstname" name="firstname" />
+            <input type="text" ng-model="lastname" name="lastname" />
+            <input type="submit" class="submit" value="Create New Customer" />
+        </form>
+    </div>
+    <div id="readCustomer">
+
+    </div>
+    <div id="updateCustomer">
+
+    </div>
+    <div id="deleteCustomer">
+
+    </div>
 </div>

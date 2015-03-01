@@ -4,9 +4,8 @@ import com.dataAccess.bean.Customer;
 import com.dataAccess.dao.CustomerDAO;
 import com.dataAccess.dao.RoomDAO;
 
-import javax.ws.rs.GET;
-import javax.ws.rs.Path;
-import javax.ws.rs.Produces;
+
+import javax.ws.rs.*;
 
 /**
  * Created by oliver on 27/02/15.
@@ -23,13 +22,16 @@ public class CustomerServices {
     @GET
     @Path("/create")
     @Produces("text/html")
-    public String createCustomer(){
+    public String createCustomer(@QueryParam("firstname") String f, @QueryParam("lastname") String l){
+        Customer customer1 = new Customer();
+            customer1.setFirstName(f);
+            customer1.setLastName(l);
         return "<h2>Votre identifiant client est le: "
-                + CustomerDAO.getInstance().create(customer) + "</h2>"
+                + CustomerDAO.getInstance().create(customer1) + "</h2>"
                 + "</br>"
                 + "<h3> Nous sommes heureux de vous acceuillir dans notre hotel.</h3></br>"
                 + "<h3> La réservation de votre chambre est au nom de : "
-                + customer.getFirstName() + " " + customer.getLastName() + ".</br></h3>";
+                + customer1.getFirstName() + " " + customer1.getLastName() + ".</br></h3>";
     }
 
     @GET
