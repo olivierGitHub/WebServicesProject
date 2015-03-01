@@ -89,12 +89,13 @@ public class RoomDAO implements DAO<Room> {
     }
 
     @Override
-    public void delete(Room room) {
+    public void delete(int id) {
         EntityManager em = emf.createEntityManager();
         EntityTransaction t = em.getTransaction();
 
         try{
             t.begin();
+            Room room = em.find(Room.class, id);
             em.remove(room);
             t.commit();
         }catch(Exception e){

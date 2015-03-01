@@ -8,5 +8,5 @@ public interface DAO<T> {
     int create(T obj);
     T read (int id);
     void update (T obj);
-    void delete(T obj);
+    void delete(int id);
 }

@@ -8,13 +8,27 @@
             <input type="submit" class="submit" value="Create New Customer" />
         </form>
     </div>
-    <div id="readCustomer">
-
+    <div id="readCustomer" method="GET">
+        <form ng-submit="readCustomer()">
+            Enter the customer id:
+            <input type="text" ng-model="idCustomer" name="idCustomer" />
+            <input type="submit" class="submit" value="Read Existing Customer" />
+        </form>
     </div>
-    <div id="updateCustomer">
-
+    <div id="updateCustomer" method="GET">
+        <form ng-submit="updateCustomer()">
+            Enter text and hit enter:
+            <input type="text" ng-model="firstnameU" name="firstnameU" />
+            <input type="text" ng-model="lastnameU" name="lastnameU" />
+            <input type="submit" class="submit" value="Update Customer" />
+        </form>
     </div>
-    <div id="deleteCustomer">
+    <div id="deleteCustomer"method="GET">
+        <form ng-submit="deleteCustomer()">
+            Enter text and hit enter:
+            <input type="text" ng-model="idCustomerD" name="idCustomerD" />
+            <input type="submit" class="submit" value="Delete Customer" />
+        </form>
 
     </div>
 </div>

@@ -55,8 +55,8 @@ public class RoomServices {
     @GET
     @Path("/delete")
     @Produces("text/html")
-    public String deleteRoom(){
-        RoomDAO.getInstance().delete(room);
+    public String deleteRoom(int id){
+        RoomDAO.getInstance().delete(id);
         return "<h3> Delete Completed</h3>";
     }
 

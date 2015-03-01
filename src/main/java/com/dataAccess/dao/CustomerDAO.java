@@ -89,12 +89,13 @@ public class CustomerDAO implements DAO<Customer> {
     }
 
     @Override
-    public void delete(Customer customer) {
+    public void delete(int id) {
         EntityManager em = emf.createEntityManager();
         EntityTransaction t = em.getTransaction();
 
         try{
             t.begin();
+            Customer customer = em.find(Customer.class, id);
             em.remove(customer);
             t.commit();
         }catch(Exception e){

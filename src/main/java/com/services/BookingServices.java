@@ -60,8 +60,8 @@ public class BookingServices {
     @GET
     @Path("/delete")
     @Produces("text/html")
-    public String deleteBooking(){
-        BookingDAO.getInstance().delete(booking);
+    public String deleteBooking(int id){
+        BookingDAO.getInstance().delete(id);
         return "<h3> Delete Completed</h3>";
     }
 

@@ -85,12 +85,13 @@ public class BookingDAO implements DAO<Booking>{
     }
 
     @Override
-    public void delete(Booking booking) {
+    public void delete(int id) {
         EntityManager em = emf.createEntityManager();
         EntityTransaction t = em.getTransaction();
 
         try{
             t.begin();
+            Booking booking = em.find(Booking.class, id);
             em.remove(booking);
             t.commit();
         }catch(Exception e){
