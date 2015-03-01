@@ -1,6 +1,6 @@
 <div ng-controller="roomCtrl">
     <h1>Room Modification</h1>
-    <div id="createRoom" method="GET">
+    <div id="createRoom">
         <form class="formRoom" ng-submit="createRoom()">
             <h3>Create a room :</h3></br></br></br>
             <input type="text" ng-model="roomNumber" name="roomNumber" placeholder="Room Number"/></br>
@@ -9,14 +9,14 @@
             <input type="submit" class="submit" value="Create New Room" />
         </form>
     </div>
-    <div id="readRoom" method="GET">
+    <div id="readRoom">
         <form class="formRoom" ng-submit="readRoom()">
             <h3>Retrieve a room :</h3></br></br></br>
             <input type="text" ng-model="idRoom" name="idRoom" placeholder="Room id"/></br></br>
             <input type="submit" class="submit" value="Read Existing Room" />
         </form>
     </div>
-    <div id="updateRoom" method="GET">
+    <div id="updateRoom">
         <form class="formRoom" ng-submit="updateRoom()">
             <h3>Update a room :</h3></br></br></br>
             <input type="text" ng-model="roomNumberU" name="roomNumberU" placeholder="Room Number"/></br>
@@ -25,7 +25,7 @@
             <input type="submit" class="submit" value="Update Room" />
         </form>
     </div>
-    <div id="deleteRoom"method="GET">
+    <div id="deleteRoom">
         <form class="formRoom" ng-submit="deleteRoom()">
             <h3>Delete a room :</h3></br></br></br>
             <input type="text" ng-model="idRoomD" name="idRoomD" placeholder="Room id"/></br></br>

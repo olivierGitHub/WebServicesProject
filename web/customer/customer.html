@@ -1,6 +1,6 @@
 <div ng-controller="customerCtrl">
     <h1>Customer Modification</h1>
-    <div id="createCustomer" method="GET">
+    <div id="createCustomer">
         <form class="formCustomer" ng-submit="createCustomer()">
             <h3>Customer creation :</h3></br></br></br>
             <input type="text" ng-model="firstname" name="firstname" placeholder="Firstname"/></br>
@@ -8,14 +8,14 @@
             <input type="submit" class="submit" value="Create New Customer" />
         </form>
     </div>
-    <div id="readCustomer" method="GET">
+    <div id="readCustomer">
         <form class="formCustomer" ng-submit="readCustomer()">
             <h3>Retrieve a customer :</h3></br></br></br>
             <input type="text" ng-model="idCustomer" name="idCustomer" placeholder="Customer id"/></br></br>
             <input type="submit" class="submit" value="Read Existing Customer" />
         </form>
     </div>
-    <div id="updateCustomer" method="GET">
+    <div id="updateCustomer">
         <form class="formCustomer" ng-submit="updateCustomer()">
             <h3>Update a customer :</h3></br></br></br>
             <input type="text" ng-model="firstnameU" name="firstnameU" placeholder="Firstname"/></br>
@@ -23,10 +23,10 @@
             <input type="submit" class="submit" value="Update Customer" />
         </form>
     </div>
-    <div id="deleteCustomer" method="GET">
+    <div id="deleteCustomer" >
         <form class="formCustomer" ng-submit="deleteCustomer()">
             <h3>Delete a customer :</h3></br></br></br>
-            <input type="text" ng-model="idCustomerD" name="idCustomerD" placeholder="Customer id"/></br></br>
+            <input type="text" ng-model="idCustomerD" name="idCustomerD" placeholder="Customer id" /></br></br>
             <input type="submit" class="submit" value="Delete Customer" />
         </form>
     </div>

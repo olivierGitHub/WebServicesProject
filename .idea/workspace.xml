@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdccdc2a-9c3d-4981-926d-0243692af73b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/booking/booking.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/customer/customer.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/room/room.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/booking/booking.html" afterPath="$PROJECT_DIR$/web/booking/booking.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/customer/customer.html" afterPath="$PROJECT_DIR$/web/customer/customer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/home/home.html" afterPath="$PROJECT_DIR$/web/home/home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/index.html" afterPath="$PROJECT_DIR$/web/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/room/room.html" afterPath="$PROJECT_DIR$/web/room/room.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -94,10 +89,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="customer.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="customer.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/customer/customer.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="45" selection-start="0" selection-end="891" vertical-scroll-proportion="0.0" vertical-offset="11" max-vertical-offset="918">
+            <state line="2" column="17" selection-start="53" selection-end="53" vertical-scroll-proportion="0.065902576" vertical-offset="11" max-vertical-offset="918">
               <folding />
             </state>
           </provider>
@@ -133,16 +128,16 @@
       <file leaf-file-name="booking.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/booking/booking.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="33" selection-start="206" selection-end="206" vertical-scroll-proportion="-2.4230769" vertical-offset="5" max-vertical-offset="782">
+            <state line="34" column="28" selection-start="2025" selection-end="2025" vertical-scroll-proportion="-6.923077" vertical-offset="398" max-vertical-offset="782">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="customer.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="customer.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/customer/customer.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="34" selection-start="1536" selection-end="1536" vertical-scroll-proportion="0.62258065" vertical-offset="266" max-vertical-offset="646">
+            <state line="28" column="0" selection-start="1507" selection-end="1507" vertical-scroll-proportion="-18.307692" vertical-offset="0" max-vertical-offset="646">
               <folding />
             </state>
           </provider>
@@ -160,7 +155,7 @@
       <file leaf-file-name="room.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/room/room.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="30" selection-start="1672" selection-end="1672" vertical-scroll-proportion="-6.5" vertical-offset="324" max-vertical-offset="680">
+            <state line="2" column="24" selection-start="86" selection-end="86" vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="680">
               <folding />
             </state>
           </provider>
@@ -223,8 +218,8 @@
         <option value="$PROJECT_DIR$/web/booking/booking.css" />
         <option value="$PROJECT_DIR$/web/index.js" />
         <option value="$PROJECT_DIR$/web/home/home.html" />
-        <option value="$PROJECT_DIR$/web/booking/booking.html" />
         <option value="$PROJECT_DIR$/web/customer/customer.html" />
+        <option value="$PROJECT_DIR$/web/booking/booking.html" />
         <option value="$PROJECT_DIR$/web/room/room.html" />
       </list>
     </option>
@@ -299,146 +294,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="WebServicesProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WebServicesProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WebServicesProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WebServicesProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WebServicesProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="room" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WebServicesProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WebServicesProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="home" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WebServicesProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WebServicesProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="customer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WebServicesProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WebServicesProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="booking" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WebServicesProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WebServicesProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WebServicesProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WebServicesProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WebServicesProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WebServicesProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -837,7 +692,7 @@
       <workItem from="1425174342323" duration="297000" />
       <workItem from="1425174652265" duration="14120000" />
       <workItem from="1425230575978" duration="5176000" />
-      <workItem from="1425237037705" duration="4625000" />
+      <workItem from="1425237037705" duration="5014000" />
     </task>
     <task id="LOCAL-00001" summary="Bower Libraries">
       <created>1425088457948</created>
@@ -911,15 +766,19 @@
       <created>1425237554441</created>
       <updated>1425237554442</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="CSS style sheets added&#10;&#10;&#10;">
+      <created>1425241704551</created>
+      <updated>1425241704551</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59519000" />
+    <option name="totallyTimeSpent" value="59908000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32922536" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -943,7 +802,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32922536" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.36555892" sideWeight="0.49868765" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.36555892" sideWeight="0.49868765" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32423207" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -973,7 +832,8 @@
     <MESSAGE value="Ajout Room CRUD ok&#10;&#10;Angular side OK&#10;Resteasy side OK&#10;Parameters sent using GET method&#10;pb update (learn to use object in Angular side)&#10;" />
     <MESSAGE value="Ajout BOOKING CRUD ok&#10;&#10;Angular side OK&#10;Resteasy side OK&#10;Parameters sent using GET method&#10;pb update (learn to use object in Angular side)&#10;" />
     <MESSAGE value="Ajout messages d'erreur&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ajout messages d'erreur&#10;" />
+    <MESSAGE value="CSS style sheets added&#10;&#10;&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="CSS style sheets added&#10;&#10;&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1220,23 +1080,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/room/roomCtrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="32" selection-start="2542" selection-end="2542" vertical-scroll-proportion="0.0" vertical-offset="935" max-vertical-offset="1479">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/customer/customerCtrl.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="27" column="32" selection-start="1084" selection-end="1084" vertical-scroll-proportion="0.0" vertical-offset="66" max-vertical-offset="1513">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/customer/customer.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="45" selection-start="0" selection-end="891" vertical-scroll-proportion="0.0" vertical-offset="11" max-vertical-offset="918">
           <folding />
         </state>
       </provider>
@@ -1291,21 +1137,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/booking/booking.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="33" selection-start="206" selection-end="206" vertical-scroll-proportion="-2.4230769" vertical-offset="5" max-vertical-offset="782">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/room/room.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="30" selection-start="1672" selection-end="1672" vertical-scroll-proportion="-6.5" vertical-offset="324" max-vertical-offset="680">
+        <state line="34" column="28" selection-start="2025" selection-end="2025" vertical-scroll-proportion="-6.923077" vertical-offset="398" max-vertical-offset="782">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/customer/customer.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="34" selection-start="1536" selection-end="1536" vertical-scroll-proportion="0.62258065" vertical-offset="266" max-vertical-offset="646">
+        <state line="28" column="0" selection-start="1507" selection-end="1507" vertical-scroll-proportion="-18.307692" vertical-offset="0" max-vertical-offset="646">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/room/room.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="24" selection-start="86" selection-end="86" vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="680">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/room/roomCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="63" column="32" selection-start="2542" selection-end="2542" vertical-scroll-proportion="0.0" vertical-offset="935" max-vertical-offset="1479">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/customer/customer.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="17" selection-start="53" selection-end="53" vertical-scroll-proportion="0.065902576" vertical-offset="11" max-vertical-offset="918">
           <folding />
         </state>
       </provider>

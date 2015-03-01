@@ -1,6 +1,6 @@
 <div ng-controller="bookingCtrl">
     <h1>Booking Modification</h1>
-    <div id="createBooking" method="GET">
+    <div id="createBooking">
         <form class="formBooking" ng-submit="createBooking()">
             <h3>Booking Creation :</h3></br></br></br>
             <input type="text" ng-model="bookingName" name="bookingName" placeholder="Booking Name"/></br>
@@ -9,14 +9,14 @@
             <input type="submit" class="submit" value="Create New Booking" />
         </form>
     </div>
-    <div id="readBooking" method="GET">
+    <div id="readBooking">
         <form class="formBooking" ng-submit="readBooking()">
             <h3>Retrieve a booking :</h3></br></br></br>
             <input type="text" ng-model="idBooking" name="idBooking" placeholder="Booking id"/></br></br>
             <input type="submit" class="submit" value="Read Existing Booking" />
         </form>
     </div>
-    <div id="updateBooking" method="GET">
+    <div id="updateBooking">
         <form class="formBooking" ng-submit="updateBooking()">
             <h3>Update a booking :</h3></br></br></br>
             <input type="text" ng-model="bookingNameU" name="bookingNameU" placeholder="Booking Name"/></br>
@@ -25,14 +25,14 @@
             <input type="submit" class="submit" value="Update Booking" />
         </form>
     </div>
-    <div id="deleteBooking" method="GET">
+    <div id="deleteBooking">
         <form class="formBooking" ng-submit="deleteBooking()">
             <h3>Delete a booking :</h3></br></br></br>
             <input type="text" ng-model="idBookingD" name="idBookingD" placeholder="Booking id"/></br></br>
             <input type="submit" class="submit" value="Delete Booking" />
         </form>
     </div>
-    <div id="readAllBooking" method="GET">
+    <div id="readAllBooking">
         <form class="formBooking" ng-submit="readAllBooking()">
             <h3>Select All Booking :</h3></br></br></br>
             <input type="submit" class="submit" value="Select All Booking" />
