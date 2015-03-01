@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdccdc2a-9c3d-4981-926d-0243692af73b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/services/BookingServices.java" afterPath="$PROJECT_DIR$/src/main/java/com/services/BookingServices.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="WebServicesProject.iws" />
@@ -117,7 +116,8 @@
           <provider selected="true" editor-type-id="text-editor">
             <state line="76" column="22" selection-start="1954" selection-end="1954" vertical-scroll-proportion="0.0" vertical-offset="1357" max-vertical-offset="1938">
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#520#521#0" expanded="false" />
+                <element signature="e#551#552#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -127,11 +127,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/dataAccess/dao/RoomDAO.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="75" column="12" selection-start="1851" selection-end="1851" vertical-scroll-proportion="0.0" vertical-offset="1411" max-vertical-offset="1972">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#496#497#0" expanded="true" />
-                <element signature="e#527#528#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -139,7 +135,7 @@
       <file leaf-file-name="BookingServices.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/services/BookingServices.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="0" selection-start="382" selection-end="382" vertical-scroll-proportion="0.21037464" vertical-offset="233" max-vertical-offset="1377">
+            <state line="65" column="5" selection-start="1840" selection-end="1840" vertical-scroll-proportion="0.21613833" vertical-offset="1030" max-vertical-offset="1377">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -152,7 +148,16 @@
           <provider selected="true" editor-type-id="text-editor">
             <state line="7" column="0" selection-start="211" selection-end="211" vertical-scroll-proportion="0.0" vertical-offset="133" max-vertical-offset="612">
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#473#474#0" expanded="false" />
+                <element signature="e#506#507#0" expanded="false" />
+                <element signature="e#542#543#0" expanded="false" />
+                <element signature="e#574#575#0" expanded="false" />
+                <element signature="e#623#624#0" expanded="false" />
+                <element signature="e#665#666#0" expanded="false" />
+                <element signature="e#700#701#0" expanded="false" />
+                <element signature="e#731#732#0" expanded="false" />
+                <element signature="e#778#779#0" expanded="false" />
+                <element signature="e#818#819#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -163,7 +168,20 @@
           <provider selected="true" editor-type-id="text-editor">
             <state line="6" column="0" selection-start="182" selection-end="182" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="663">
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#438#439#0" expanded="false" />
+                <element signature="e#467#468#0" expanded="false" />
+                <element signature="e#501#502#0" expanded="false" />
+                <element signature="e#534#535#0" expanded="false" />
+                <element signature="e#582#583#0" expanded="false" />
+                <element signature="e#626#627#0" expanded="false" />
+                <element signature="e#661#662#0" expanded="false" />
+                <element signature="e#692#693#0" expanded="false" />
+                <element signature="e#739#740#0" expanded="false" />
+                <element signature="e#779#780#0" expanded="false" />
+                <element signature="e#816#817#0" expanded="false" />
+                <element signature="e#852#853#0" expanded="false" />
+                <element signature="e#906#907#0" expanded="false" />
+                <element signature="e#956#957#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -431,7 +449,7 @@
       <recent name="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\WebServicesProject\web\common" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestDAO">
+  <component name="RunManager" selected="Tomcat Server.Run on Tomcat">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin" singleton="true">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
@@ -786,7 +804,7 @@
       <created>1425073182677</created>
       <updated>1425073182677</updated>
       <workItem from="1425073187294" duration="19518000" />
-      <workItem from="1425138393992" duration="13134000" />
+      <workItem from="1425138393992" duration="14508000" />
     </task>
     <task id="LOCAL-00001" summary="Bower Libraries">
       <created>1425088457948</created>
@@ -816,11 +834,15 @@
       <created>1425169401039</created>
       <updated>1425169401039</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Ajout Update et Delete&#10;">
+      <created>1425170099572</created>
+      <updated>1425170099572</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32652000" />
+    <option name="totallyTimeSpent" value="34026000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -1036,11 +1058,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/dataAccess/dao/RoomDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="75" column="12" selection-start="1851" selection-end="1851" vertical-scroll-proportion="0.0" vertical-offset="1411" max-vertical-offset="1972">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#496#497#0" expanded="true" />
-            <element signature="e#527#528#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1048,7 +1066,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="76" column="22" selection-start="1954" selection-end="1954" vertical-scroll-proportion="0.0" vertical-offset="1115" max-vertical-offset="1938">
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#520#521#0" expanded="false" />
+            <element signature="e#551#552#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1057,7 +1076,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="0" selection-start="182" selection-end="182" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="663">
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#438#439#0" expanded="false" />
+            <element signature="e#467#468#0" expanded="false" />
+            <element signature="e#501#502#0" expanded="false" />
+            <element signature="e#534#535#0" expanded="false" />
+            <element signature="e#582#583#0" expanded="false" />
+            <element signature="e#626#627#0" expanded="false" />
+            <element signature="e#661#662#0" expanded="false" />
+            <element signature="e#692#693#0" expanded="false" />
+            <element signature="e#739#740#0" expanded="false" />
+            <element signature="e#779#780#0" expanded="false" />
+            <element signature="e#816#817#0" expanded="false" />
+            <element signature="e#852#853#0" expanded="false" />
+            <element signature="e#906#907#0" expanded="false" />
+            <element signature="e#956#957#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1066,7 +1098,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="0" selection-start="211" selection-end="211" vertical-scroll-proportion="0.0" vertical-offset="133" max-vertical-offset="612">
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#473#474#0" expanded="false" />
+            <element signature="e#506#507#0" expanded="false" />
+            <element signature="e#542#543#0" expanded="false" />
+            <element signature="e#574#575#0" expanded="false" />
+            <element signature="e#623#624#0" expanded="false" />
+            <element signature="e#665#666#0" expanded="false" />
+            <element signature="e#700#701#0" expanded="false" />
+            <element signature="e#731#732#0" expanded="false" />
+            <element signature="e#778#779#0" expanded="false" />
+            <element signature="e#818#819#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1121,7 +1162,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/services/BookingServices.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="382" selection-end="382" vertical-scroll-proportion="0.21037464" vertical-offset="233" max-vertical-offset="1377">
+        <state line="65" column="5" selection-start="1840" selection-end="1840" vertical-scroll-proportion="0.21613833" vertical-offset="1030" max-vertical-offset="1377">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
