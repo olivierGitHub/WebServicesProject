@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdccdc2a-9c3d-4981-926d-0243692af73b" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/booking/bookingCtrl.js" afterPath="$PROJECT_DIR$/web/booking/bookingCtrl.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="WebServicesProject.iws" />
@@ -80,7 +81,7 @@
       <file leaf-file-name="bookingCtrl.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/booking/bookingCtrl.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="82" column="19" selection-start="3279" selection-end="3279" vertical-scroll-proportion="0.0" vertical-offset="1282" max-vertical-offset="1853">
+            <state line="84" column="0" selection-start="3289" selection-end="3289" vertical-scroll-proportion="0.0" vertical-offset="1282" max-vertical-offset="1853">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -91,7 +92,7 @@
       <file leaf-file-name="index.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="15" selection-start="831" selection-end="831" vertical-scroll-proportion="1.2664757" vertical-offset="0" max-vertical-offset="578">
+            <state line="15" column="45" selection-start="412" selection-end="412" vertical-scroll-proportion="0.63323784" vertical-offset="0" max-vertical-offset="578">
               <folding />
             </state>
           </provider>
@@ -220,8 +221,8 @@
         <option value="$PROJECT_DIR$/web/booking/booking.css" />
         <option value="$PROJECT_DIR$/web/room/roomCtrl.js" />
         <option value="$PROJECT_DIR$/web/customer/customerCtrl.js" />
-        <option value="$PROJECT_DIR$/web/booking/bookingCtrl.js" />
         <option value="$PROJECT_DIR$/web/index.js" />
+        <option value="$PROJECT_DIR$/web/booking/bookingCtrl.js" />
       </list>
     </option>
   </component>
@@ -309,6 +310,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebServicesProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebServicesProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="booking" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -707,7 +726,7 @@
       <workItem from="1425174342323" duration="297000" />
       <workItem from="1425174652265" duration="14120000" />
       <workItem from="1425230575978" duration="5176000" />
-      <workItem from="1425237037705" duration="5542000" />
+      <workItem from="1425237037705" duration="5592000" />
     </task>
     <task id="LOCAL-00001" summary="Bower Libraries">
       <created>1425088457948</created>
@@ -793,11 +812,15 @@
       <created>1425242577750</created>
       <updated>1425242577750</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Cleaning of the warnings in js files using JsHint&#10;">
+      <created>1425242590862</created>
+      <updated>1425242590862</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60436000" />
+    <option name="totallyTimeSpent" value="60486000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -1187,7 +1210,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/booking/bookingCtrl.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="82" column="19" selection-start="3279" selection-end="3279" vertical-scroll-proportion="0.0" vertical-offset="1282" max-vertical-offset="1853">
+        <state line="84" column="0" selection-start="3289" selection-end="3289" vertical-scroll-proportion="0.0" vertical-offset="1282" max-vertical-offset="1853">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
@@ -1196,7 +1219,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="15" selection-start="831" selection-end="831" vertical-scroll-proportion="1.2664757" vertical-offset="0" max-vertical-offset="578">
+        <state line="15" column="45" selection-start="412" selection-end="412" vertical-scroll-proportion="0.63323784" vertical-offset="0" max-vertical-offset="578">
           <folding />
         </state>
       </provider>
