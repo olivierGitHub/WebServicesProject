@@ -2,9 +2,6 @@ package com.services;
 
 import com.dataAccess.bean.Customer;
 import com.dataAccess.dao.CustomerDAO;
-import com.dataAccess.dao.RoomDAO;
-
-
 import javax.ws.rs.*;
 
 /**

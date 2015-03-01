@@ -1,7 +1,6 @@
 package com.services;
 
 import com.dataAccess.bean.Room;
-import com.dataAccess.dao.BookingDAO;
 import com.dataAccess.dao.RoomDAO;
 
 import javax.ws.rs.GET;
