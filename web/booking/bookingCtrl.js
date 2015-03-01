@@ -16,6 +16,9 @@ angular.module('bookingApp', [])
         $scope.deleteBooking = function(){
             bookingService.deleteBooking($scope.idBookingD);
         }
+        $scope.readAllBooking = function(){
+            bookingService.readAllBooking();
+        }
     }])
 
     .service('bookingService', function ($http, $rootScope){
@@ -25,9 +28,9 @@ angular.module('bookingApp', [])
                 url: "http://localhost:8080/WebServicesProject/rest/booking/create",
                 params: {bookingName:bookingName, arrivalDate:arrivalDate, departureDate:departureDate}
             }).success(function(){
-                    console.log("Booking creation success OK")
+                    console.log("Booking creation success OK");
                 }).error(function(){
-                    console.log("Booking creation failed")
+                    console.log("Booking creation failed");
                 })}
 
         function read(idBooking){
@@ -36,9 +39,9 @@ angular.module('bookingApp', [])
                 url: "http://localhost:8080/WebServicesProject/rest/booking/read",
                 params: {idBooking: idBooking}
             }).success(function(){
-                    console.log("Booking reading success OK")
+                    console.log("Booking reading success OK");
             }).error(function(){
-                    console.log("Booking reading failed")
+                    console.log("Booking reading failed");
             })}
 
         function update(bookingNameU, arrivalDateU, departureDateU){
@@ -65,6 +68,17 @@ angular.module('bookingApp', [])
                 })
         }
 
+        function readAll(){
+            $http({
+                method: 'GET',
+                url: "http://localhost:8080/WebServicesProject/rest/booking/readALL"
+            }).success(function(){
+                    console.log("Booking read ALL success");
+                }).error(function(){
+                    console.log("Booking read ALL failed");
+                })
+        }
+
         return {
             createBooking: function (bookingName, arrivalDate, departureDate) {
                 create (bookingName, arrivalDate, departureDate);
@@ -73,10 +87,13 @@ angular.module('bookingApp', [])
                 read (idCustomer);
             },
             updateBooking: function(bookingNameU, arrivalDateU, departureDateU){
-                update(bookingNameU, arrivalDateU, departureDateU)
+                update(bookingNameU, arrivalDateU, departureDateU);
             },
             deleteBooking: function(idCustomerD){
-                remove(idCustomerD)
+                remove(idCustomerD);
+            },
+            readAllBooking: function(){
+                readAll();
             }
         };
     }

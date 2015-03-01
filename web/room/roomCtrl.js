@@ -25,9 +25,9 @@ angular.module('roomApp', [])
                 url: "http://localhost:8080/WebServicesProject/rest/room/create",
                 params: {roomNumber:roomNumber, roomType:roomType, roomDimension:roomDimension}
             }).success(function(){
-                    console.log("Room creation success OK")
+                    console.log("Room creation success OK");
                 }).error(function(){
-                    console.log("Room creation failed")
+                    console.log("Room creation failed");
                 })}
 
         function read(idRoom){
@@ -36,9 +36,9 @@ angular.module('roomApp', [])
                 url: "http://localhost:8080/WebServicesProject/rest/room/read",
                 params: {idRoom: idRoom}
             }).success(function(){
-                    console.log("Room reading success OK")
+                    console.log("Room reading success OK");
                 }).error(function(){
-                    console.log("Room reading failed")
+                    console.log("Room reading failed");
                 })}
 
         function update(roomNumberU, roomTypeU, roomDimensionU){
@@ -73,10 +73,10 @@ angular.module('roomApp', [])
                 read (idRoom);
             },
             updateRoom: function(roomNumberU, roomTypeU, roomDimensionU){
-                update(roomNumberU, roomTypeU, roomDimensionU)
+                update(roomNumberU, roomTypeU, roomDimensionU);
             },
             deleteRoom: function(idRoomD){
-                remove(idRoomD)
+                remove(idRoomD);
             }
         };
 });

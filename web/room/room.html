@@ -2,33 +2,33 @@
     <h1>Hello room</h1>
     <div id="createRoom" method="GET">
         <form ng-submit="createRoom()">
-            Enter text and hit enter:
-            <input type="text" ng-model="roomNumber" name="roomNumber" />
-            <input type="text" ng-model="roomType" name="roomType" />
-            <input type="text" ng-model="roomDimension" name="roomDimension" />
+            Create a room:
+            <input type="text" ng-model="roomNumber" name="roomNumber" placeholder="Room Number"/>
+            <input type="text" ng-model="roomType" name="roomType" placeholder="Room Type"/>
+            <input type="text" ng-model="roomDimension" name="roomDimension" placeholder="Room Type"/>
             <input type="submit" class="submit" value="Create New Room" />
         </form>
     </div>
     <div id="readRoom" method="GET">
         <form ng-submit="readRoom()">
-            Enter the room id:
-            <input type="text" ng-model="idRoom" name="idRoom" />
+            Retrieve a room:
+            <input type="text" ng-model="idRoom" name="idRoom" placeholder="Room id"/>
             <input type="submit" class="submit" value="Read Existing Room" />
         </form>
     </div>
     <div id="updateRoom" method="GET">
         <form ng-submit="updateRoom()">
-            Enter text and hit enter:
-            <input type="text" ng-model="roomNumberU" name="roomNumberU" />
-            <input type="text" ng-model="roomTypeU" name="roomTypeU" />
-            <input type="text" ng-model="roomDimensionU" name="roomDimensionU" />
+            Update a room:
+            <input type="text" ng-model="roomNumberU" name="roomNumberU" placeholder="Room Number"/>
+            <input type="text" ng-model="roomTypeU" name="roomTypeU" placeholder="Room Type"/>
+            <input type="text" ng-model="roomDimensionU" name="roomDimensionU" placeholder="Room Dimension"/>
             <input type="submit" class="submit" value="Update Room" />
         </form>
     </div>
     <div id="deleteRoom"method="GET">
         <form ng-submit="deleteRoom()">
-            Enter text and hit enter:
-            <input type="text" ng-model="idRoomD" name="idRoomD" />
+            Delete a room:
+            <input type="text" ng-model="idRoomD" name="idRoomD" placeholder="Room id"/>
             <input type="submit" class="submit" value="Delete Room" />
         </form>
     </div>

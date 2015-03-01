@@ -2,34 +2,40 @@
     <h1>Booking Modification</h1>
     <div id="createBooking" method="GET">
         <form ng-submit="createBooking()">
-            Enter text and hit enter:
-            <input type="text" ng-model="bookingName" name="bookingName" />
-            <input type="text" ng-model="arrivalDate" name="arrivalDate" />
-            <input type="text" ng-model="departureDate" name="departureDate" />
+            Booking Creation:
+            <input type="text" ng-model="bookingName" name="bookingName" placeholder="Booking Name"/>
+            <input type="text" ng-model="arrivalDate" name="arrivalDate" placeholder="Arrival Date"/>
+            <input type="text" ng-model="departureDate" name="departureDate" placeholder="Departure Date"/>
             <input type="submit" class="submit" value="Create New Booking" />
         </form>
     </div>
     <div id="readBooking" method="GET">
         <form ng-submit="readBooking()">
-            Enter the booking id:
-            <input type="text" ng-model="idBooking" name="idBooking" />
+            Retrieve a booking:
+            <input type="text" ng-model="idBooking" name="idBooking" placeholder="Booking id"/>
             <input type="submit" class="submit" value="Read Existing Booking" />
         </form>
     </div>
     <div id="updateBooking" method="GET">
         <form ng-submit="updateBooking()">
-            Enter text and hit enter:
-            <input type="text" ng-model="bookingNameU" name="bookingNameU" />
-            <input type="text" ng-model="arrivalDateU" name="arrivalDateU" />
-            <input type="text" ng-model="departureDateU" name="departureDateU" />
+            Update a booking:
+            <input type="text" ng-model="bookingNameU" name="bookingNameU" placeholder="Booking Name"/>
+            <input type="text" ng-model="arrivalDateU" name="arrivalDateU" placeholder="Arrival Date"/>
+            <input type="text" ng-model="departureDateU" name="departureDateU" placeholder="Departure Date"/>
             <input type="submit" class="submit" value="Update Booking" />
         </form>
     </div>
     <div id="deleteBooking"method="GET">
         <form ng-submit="deleteBooking()">
-            Enter text and hit enter:
-            <input type="text" ng-model="idBookingD" name="idBookingD" />
+            Delete a booking
+            <input type="text" ng-model="idBookingD" name="idBookingD" placeholder="Booking id"/>
             <input type="submit" class="submit" value="Delete Booking" />
+        </form>
+    </div>
+    <div id="readAllBooking"method="GET">
+        <form ng-submit="readAllBooking()">
+            Select All Booking:
+            <input type="submit" class="submit" value="Select All Booking" />
         </form>
     </div>
 </div>

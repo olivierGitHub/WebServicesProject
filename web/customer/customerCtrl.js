@@ -25,9 +25,9 @@ angular.module('customerApp', [])
                 url: "http://localhost:8080/WebServicesProject/rest/customer/create",
                 params: {firstname: firstname, lastname: lastname}
             }).success(function(){
-                    console.log("Customer creation success OK")
+                    console.log("Customer creation success OK");
             }).error(function(){
-                    console.log("Customer creation failed")
+                    console.log("Customer creation failed");
             })}
 
         function read(idCustomer){
@@ -36,9 +36,9 @@ angular.module('customerApp', [])
                 url: "http://localhost:8080/WebServicesProject/rest/customer/read",
                 params: {idCustomer: idCustomer}
             }).success(function(){
-                    console.log("Customer reading success OK")
+                    console.log("Customer reading success OK");
                 }).error(function(){
-                    console.log("Customer reading failed")
+                    console.log("Customer reading failed");
                 })}
 
         function update(firstnameU, lastnameU){
@@ -73,10 +73,10 @@ angular.module('customerApp', [])
                 read (idCustomer);
             },
             updateCustomer: function(firstnameU, lastnameU){
-                update(firstnameU,lastnameU)
+                update(firstnameU,lastnameU);
             },
             deleteCustomer: function(idCustomerD){
-                remove(idCustomerD)
+                remove(idCustomerD);
             }
         };
     }
