@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdccdc2a-9c3d-4981-926d-0243692af73b" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/index.html" afterPath="$PROJECT_DIR$/web/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="WebServicesProject.iws" />
@@ -94,7 +95,6 @@
             <state line="7" column="8" selection-start="167" selection-end="167" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
               <folding>
                 <element signature="e#0#41#0" expanded="false" />
-                <marker date="1425143738013" expanded="true" signature="109:165" placeholder="[...]" />
               </folding>
             </state>
           </provider>
@@ -107,6 +107,15 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="11" selection-start="373" selection-end="373" vertical-scroll-proportion="0.5825545" vertical-offset="0" max-vertical-offset="442">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -132,10 +141,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BookingServices.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="BookingServices.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/services/BookingServices.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="65" column="5" selection-start="1840" selection-end="1840" vertical-scroll-proportion="0.21613833" vertical-offset="1030" max-vertical-offset="1377">
+            <state line="65" column="5" selection-start="1840" selection-end="1840" vertical-scroll-proportion="0.0" vertical-offset="1030" max-vertical-offset="1377">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -231,10 +240,10 @@
         <option value="$PROJECT_DIR$/src/main/java/com/dataAccess/bean/Room.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/services/CustomerServices.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/services/RoomServices.java" />
-        <option value="$PROJECT_DIR$/web/index.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/dataAccess/dao/BookingDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/TestDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/services/BookingServices.java" />
+        <option value="$PROJECT_DIR$/web/index.html" />
       </list>
     </option>
   </component>
@@ -321,6 +330,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebServicesProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebServicesProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="customer" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -804,7 +831,7 @@
       <created>1425073182677</created>
       <updated>1425073182677</updated>
       <workItem from="1425073187294" duration="19518000" />
-      <workItem from="1425138393992" duration="14508000" />
+      <workItem from="1425138393992" duration="15177000" />
     </task>
     <task id="LOCAL-00001" summary="Bower Libraries">
       <created>1425088457948</created>
@@ -838,11 +865,15 @@
       <created>1425170099572</created>
       <updated>1425170099572</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="SOUCI StateProvider&#10;">
+      <created>1425173080927</created>
+      <updated>1425173080927</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34026000" />
+    <option name="totallyTimeSpent" value="34695000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -894,7 +925,8 @@
     <MESSAGE value="Bower Libraries" />
     <MESSAGE value="Bower Libraries&#10;" />
     <MESSAGE value="Ajout Update et Delete&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ajout Update et Delete&#10;" />
+    <MESSAGE value="SOUCI StateProvider&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="SOUCI StateProvider&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1038,16 +1070,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/customer/customerCtrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="8" selection-start="167" selection-end="167" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
-          <folding>
-            <element signature="e#0#41#0" expanded="false" />
-            <marker date="1425143738013" expanded="true" signature="109:165" placeholder="[...]" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="26" selection-start="226" selection-end="226" vertical-scroll-proportion="0.0" vertical-offset="3" max-vertical-offset="901">
@@ -1144,13 +1166,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="11" selection-start="316" selection-end="316" vertical-scroll-proportion="0.529595" vertical-offset="0" max-vertical-offset="425">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/TestDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="0" selection-start="322" selection-end="322" vertical-scroll-proportion="0.0" vertical-offset="183" max-vertical-offset="799">
@@ -1162,10 +1177,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/services/BookingServices.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="5" selection-start="1840" selection-end="1840" vertical-scroll-proportion="0.21613833" vertical-offset="1030" max-vertical-offset="1377">
+        <state line="65" column="5" selection-start="1840" selection-end="1840" vertical-scroll-proportion="0.0" vertical-offset="1030" max-vertical-offset="1377">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/customer/customerCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="8" selection-start="167" selection-end="167" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
+          <folding>
+            <element signature="e#0#41#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="11" selection-start="373" selection-end="373" vertical-scroll-proportion="0.5825545" vertical-offset="0" max-vertical-offset="442">
+          <folding />
         </state>
       </provider>
     </entry>
