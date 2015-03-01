@@ -1,0 +1,48 @@
+#createRoom{
+    height: 400px;
+    width: 300px;
+    position:absolute;
+    border: 1px solid black;
+    border-radius: 2px;
+    margin-left: 20px;
+    background-image:linear-gradient(white 60%, grey);
+
+}
+
+#readRoom{
+    height: 400px;
+    width: 300px;
+    position:absolute;
+    border: 1px solid black;
+    border-radius: 2px;
+    margin-left: 350px;
+    background-image:linear-gradient(white 60%, orange);
+
+}
+
+#updateRoom{
+    height: 400px;
+    width: 300px;
+    position:absolute;
+    border: 1px solid black;
+    border-radius: 2px;
+    margin-left: 680px;
+    background-image:linear-gradient(white 60%, grey);
+
+}
+
+#deleteRoom{
+    height: 400px;
+    width: 300px;
+    position:absolute;
+    border: 1px solid black;
+    border-radius: 2px;
+    margin-left: 1010px;
+    background-image:linear-gradient(white 60%, orange);
+
+}
+
+.formRoom{
+    margin-left: 20px;
+}
+

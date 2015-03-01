@@ -1,0 +1,48 @@
+#createCustomer{
+    height: 400px;
+    width: 300px;
+    position:absolute;
+    border: 1px solid black;
+    border-radius: 2px;
+    margin-left: 20px;
+    background-image:linear-gradient(white 60%, blue);
+
+}
+
+#readCustomer{
+    height: 400px;
+    width: 300px;
+    position:absolute;
+    border: 1px solid black;
+    border-radius: 2px;
+    margin-left: 350px;
+    background-image:linear-gradient(white 60%, grey);
+
+}
+
+#updateCustomer{
+    height: 400px;
+    width: 300px;
+    position:absolute;
+    border: 1px solid black;
+    border-radius: 2px;
+    margin-left: 680px;
+    background-image:linear-gradient(white 60%, blue);
+
+}
+
+#deleteCustomer{
+    height: 400px;
+    width: 300px;
+    position:absolute;
+    border: 1px solid black;
+    border-radius: 2px;
+    margin-left: 1010px;
+    background-image:linear-gradient(white 60%, grey);
+
+}
+
+.formCustomer{
+    margin-left: 20px;
+}
+

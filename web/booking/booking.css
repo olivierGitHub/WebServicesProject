@@ -1,0 +1,58 @@
+#createBooking{
+    height: 400px;
+    width: 250px;
+    position:absolute;
+    border: 1px solid black;
+    border-radius: 2px;
+    margin-left: 20px;
+    background-image:linear-gradient(white 60%, green);
+
+}
+
+#readBooking{
+    height: 400px;
+    width: 250px;
+    position:absolute;
+    border: 1px solid black;
+    border-radius: 2px;
+    margin-left: 280px;
+    background-image:linear-gradient(white 60%, grey);
+
+}
+
+#updateBooking{
+    height: 400px;
+    width: 250px;
+    position:absolute;
+    border: 1px solid black;
+    border-radius: 2px;
+    margin-left: 540px;
+    background-image:linear-gradient(white 60%, green);
+
+}
+
+#deleteBooking{
+    height: 400px;
+    width: 250px;
+    position:absolute;
+    border: 1px solid black;
+    border-radius: 2px;
+    margin-left: 800px;
+    background-image:linear-gradient(white 60%, grey);
+
+}
+
+#readAllBooking{
+    height: 400px;
+    width: 250px;
+    position:absolute;
+    border: 1px solid black;
+    border-radius: 2px;
+    margin-left: 1060px;
+    background-image:linear-gradient(white 60%, green);
+}
+
+.formBooking{
+    margin-left: 20px;
+}
+
