@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdccdc2a-9c3d-4981-926d-0243692af73b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/index.html" afterPath="$PROJECT_DIR$/web/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/index.js" afterPath="$PROJECT_DIR$/web/index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="WebServicesProject.iws" />
@@ -111,10 +111,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/index.html">
+      <file leaf-file-name="index.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="11" selection-start="373" selection-end="373" vertical-scroll-proportion="0.5825545" vertical-offset="0" max-vertical-offset="442">
+            <state line="11" column="29" selection-start="299" selection-end="299" vertical-scroll-proportion="0.43227667" vertical-offset="3" max-vertical-offset="901">
               <folding />
             </state>
           </provider>
@@ -232,7 +232,6 @@
         <option value="$PROJECT_DIR$/web/common/index.js" />
         <option value="$PROJECT_DIR$/web/bower.json" />
         <option value="$PROJECT_DIR$/web/customer/customerCtrl.js" />
-        <option value="$PROJECT_DIR$/web/index.js" />
         <option value="$PROJECT_DIR$/src/main/java/com/dataAccess/dao/CustomerDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/dataAccess/dao/RoomDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/dataAccess/bean/Booking.java" />
@@ -244,6 +243,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/TestDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/services/BookingServices.java" />
         <option value="$PROJECT_DIR$/web/index.html" />
+        <option value="$PROJECT_DIR$/web/index.js" />
       </list>
     </option>
   </component>
@@ -831,7 +831,7 @@
       <created>1425073182677</created>
       <updated>1425073182677</updated>
       <workItem from="1425073187294" duration="19518000" />
-      <workItem from="1425138393992" duration="15177000" />
+      <workItem from="1425138393992" duration="15693000" />
     </task>
     <task id="LOCAL-00001" summary="Bower Libraries">
       <created>1425088457948</created>
@@ -869,11 +869,15 @@
       <created>1425173080927</created>
       <updated>1425173080927</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="SOUCI StateProvider&#10;">
+      <created>1425173732324</created>
+      <updated>1425173732324</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34695000" />
+    <option name="totallyTimeSpent" value="35211000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -1070,13 +1074,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="26" selection-start="226" selection-end="226" vertical-scroll-proportion="0.0" vertical-offset="3" max-vertical-offset="901">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/dataAccess/dao/RoomDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="75" column="12" selection-start="1851" selection-end="1851" vertical-scroll-proportion="0.0" vertical-offset="1411" max-vertical-offset="1972">
@@ -1195,7 +1192,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="11" selection-start="373" selection-end="373" vertical-scroll-proportion="0.5825545" vertical-offset="0" max-vertical-offset="442">
+        <state line="7" column="75" selection-start="242" selection-end="242" vertical-scroll-proportion="0.3707165" vertical-offset="0" max-vertical-offset="442">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="29" selection-start="299" selection-end="299" vertical-scroll-proportion="0.43227667" vertical-offset="3" max-vertical-offset="901">
           <folding />
         </state>
       </provider>

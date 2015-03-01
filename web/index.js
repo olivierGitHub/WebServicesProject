@@ -3,7 +3,7 @@
  */
 
 /* global angular */
-angular.module('myApp', ['ui-router', 'customerApp'])
+angular.module('myApp', ['ui.router', 'customerApp'])
 
     .config(function ($urlRouterProvider, $stateProvider){
         'use strict';
