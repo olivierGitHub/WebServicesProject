@@ -80,7 +80,7 @@ angular.module('bookingApp', [])
                     window.alert("Booking read ALL success");
                 }).error(function(){
                     window.alert("Booking read ALL failed");
-                })
+                });
         }
 
         return {

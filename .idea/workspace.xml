@@ -78,10 +78,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bookingCtrl.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="bookingCtrl.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/booking/bookingCtrl.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="84" column="0" selection-start="3289" selection-end="3289" vertical-scroll-proportion="0.0" vertical-offset="1282" max-vertical-offset="1853">
+            <state line="82" column="19" selection-start="3279" selection-end="3279" vertical-scroll-proportion="0.33333334" vertical-offset="1282" max-vertical-offset="1853">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -89,10 +89,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="45" selection-start="412" selection-end="412" vertical-scroll-proportion="0.63323784" vertical-offset="0" max-vertical-offset="578">
+            <state line="15" column="45" selection-start="412" selection-end="412" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
               <folding />
             </state>
           </provider>
@@ -726,7 +726,7 @@
       <workItem from="1425174342323" duration="297000" />
       <workItem from="1425174652265" duration="14120000" />
       <workItem from="1425230575978" duration="5176000" />
-      <workItem from="1425237037705" duration="5592000" />
+      <workItem from="1425237037705" duration="5612000" />
     </task>
     <task id="LOCAL-00001" summary="Bower Libraries">
       <created>1425088457948</created>
@@ -816,11 +816,15 @@
       <created>1425242590862</created>
       <updated>1425242590862</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Cleaning of the warnings in js files using JsHint&#10;">
+      <created>1425242641307</created>
+      <updated>1425242641307</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60486000" />
+    <option name="totallyTimeSpent" value="60506000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -1208,19 +1212,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/booking/bookingCtrl.js">
+    <entry file="file://$PROJECT_DIR$/web/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="84" column="0" selection-start="3289" selection-end="3289" vertical-scroll-proportion="0.0" vertical-offset="1282" max-vertical-offset="1853">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state line="15" column="45" selection-start="412" selection-end="412" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.js">
+    <entry file="file://$PROJECT_DIR$/web/booking/bookingCtrl.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="45" selection-start="412" selection-end="412" vertical-scroll-proportion="0.63323784" vertical-offset="0" max-vertical-offset="578">
-          <folding />
+        <state line="82" column="19" selection-start="3279" selection-end="3279" vertical-scroll-proportion="0.33333334" vertical-offset="1282" max-vertical-offset="1853">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
