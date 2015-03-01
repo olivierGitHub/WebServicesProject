@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdccdc2a-9c3d-4981-926d-0243692af73b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/services/CustomerServices.java" afterPath="$PROJECT_DIR$/src/main/java/com/services/CustomerServices.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/services/RoomServices.java" afterPath="$PROJECT_DIR$/src/main/java/com/services/RoomServices.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/index.html" afterPath="$PROJECT_DIR$/web/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="WebServicesProject.iws" />
@@ -840,7 +837,7 @@
       <created>1425073182677</created>
       <updated>1425073182677</updated>
       <workItem from="1425073187294" duration="19518000" />
-      <workItem from="1425138393992" duration="11321000" />
+      <workItem from="1425138393992" duration="11374000" />
     </task>
     <task id="LOCAL-00001" summary="Bower Libraries">
       <created>1425088457948</created>
@@ -854,11 +851,15 @@
       <created>1425167932155</created>
       <updated>1425167932155</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Ajout Update et Delete&#10;">
+      <created>1425168281803</created>
+      <updated>1425168281803</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30839000" />
+    <option name="totallyTimeSpent" value="30892000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
