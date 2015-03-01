@@ -2,15 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdccdc2a-9c3d-4981-926d-0243692af73b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/booking/booking.css" afterPath="$PROJECT_DIR$/web/booking/booking.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/booking/bookingCtrl.js" afterPath="$PROJECT_DIR$/web/booking/bookingCtrl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/customer/customer.css" afterPath="$PROJECT_DIR$/web/customer/customer.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/customer/customerCtrl.js" afterPath="$PROJECT_DIR$/web/customer/customerCtrl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/index.js" afterPath="$PROJECT_DIR$/web/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/room/room.css" afterPath="$PROJECT_DIR$/web/room/room.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/room/roomCtrl.js" afterPath="$PROJECT_DIR$/web/room/roomCtrl.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="WebServicesProject.iws" />
@@ -716,7 +707,7 @@
       <workItem from="1425174342323" duration="297000" />
       <workItem from="1425174652265" duration="14120000" />
       <workItem from="1425230575978" duration="5176000" />
-      <workItem from="1425237037705" duration="5492000" />
+      <workItem from="1425237037705" duration="5542000" />
     </task>
     <task id="LOCAL-00001" summary="Bower Libraries">
       <created>1425088457948</created>
@@ -798,11 +789,15 @@
       <created>1425242083052</created>
       <updated>1425242083052</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Cleaning of the warnings in js files using JsHint&#10;">
+      <created>1425242577750</created>
+      <updated>1425242577750</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60386000" />
+    <option name="totallyTimeSpent" value="60436000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -862,7 +857,8 @@
     <MESSAGE value="Ajout messages d'erreur&#10;" />
     <MESSAGE value="CSS style sheets added&#10;&#10;&#10;" />
     <MESSAGE value="Some Warning in html template file deleted&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Some Warning in html template file deleted&#10;" />
+    <MESSAGE value="Cleaning of the warnings in js files using JsHint&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cleaning of the warnings in js files using JsHint&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
