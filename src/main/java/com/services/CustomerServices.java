@@ -32,6 +32,7 @@ public class CustomerServices {
                 + customer.getFirstName() + " " + customer.getLastName() + ".</br></h3>";
     }
 
+    @GET
     @Path("/read")
     @Produces("application/json")
     public Customer readCustomer(){

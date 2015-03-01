@@ -2,52 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdccdc2a-9c3d-4981-926d-0243692af73b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/customer/customerCtrl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLinters/jshint.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/angular-ui-router/.bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/angular-ui-router/CHANGELOG.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/angular-ui-router/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/angular-ui-router/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/angular-ui-router/bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/angular-ui-router/release/angular-ui-router.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/angular/.bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/angular/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/angular/angular-csp.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/angular/angular.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/angular/angular.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/angular/angular.min.js.gzip" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/angular/angular.min.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bower_components/angular/bower.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\WebServicesProject\web\bower_components\angular-ui-router\CONTRIBUTING.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\WebServicesProject\web\bower_components\angular-ui-router\api\angular-ui-router.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\WebServicesProject\web\bower_components\angular-ui-router\release\angular-ui-router.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\WebServicesProject\web\bower_components\angular-ui-router\src\common.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\WebServicesProject\web\bower_components\angular-ui-router\src\resolve.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\WebServicesProject\web\bower_components\angular-ui-router\src\state.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\WebServicesProject\web\bower_components\angular-ui-router\src\stateDirectives.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\WebServicesProject\web\bower_components\angular-ui-router\src\stateFilters.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\WebServicesProject\web\bower_components\angular-ui-router\src\templateFactory.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\WebServicesProject\web\bower_components\angular-ui-router\src\urlMatcherFactory.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\WebServicesProject\web\bower_components\angular-ui-router\src\urlRouter.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\WebServicesProject\web\bower_components\angular-ui-router\src\view.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\WebServicesProject\web\bower_components\angular-ui-router\src\viewDirective.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\WebServicesProject\web\bower_components\angular-ui-router\src\viewScroll.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\oliver\INFORMATIQUE - Projets\IdeaProjectWorkspace\WebServicesProject\web\bower_components\angular\package.json" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/dataAccess/bean/Booking.java" afterPath="$PROJECT_DIR$/src/main/java/com/dataAccess/bean/Booking.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/dataAccess/dao/BookingDAO.java" afterPath="$PROJECT_DIR$/src/main/java/com/dataAccess/dao/BookingDAO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/services/BookingServices.java" afterPath="$PROJECT_DIR$/src/main/java/com/services/BookingServices.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/dataAccess/bean/Customer.java" afterPath="$PROJECT_DIR$/src/main/java/com/dataAccess/bean/Customer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/dataAccess/dao/CustomerDAO.java" afterPath="$PROJECT_DIR$/src/main/java/com/dataAccess/dao/CustomerDAO.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/services/CustomerServices.java" afterPath="$PROJECT_DIR$/src/main/java/com/services/CustomerServices.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/dataAccess/bean/Room.java" afterPath="$PROJECT_DIR$/src/main/java/com/dataAccess/bean/Room.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/dataAccess/dao/RoomDAO.java" afterPath="$PROJECT_DIR$/src/main/java/com/dataAccess/dao/RoomDAO.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/services/RoomServices.java" afterPath="$PROJECT_DIR$/src/main/java/com/services/RoomServices.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebServicesProject.iml" afterPath="$PROJECT_DIR$/WebServicesProject.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/bower.json" afterPath="$PROJECT_DIR$/web/bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/index.html" afterPath="$PROJECT_DIR$/web/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/index.js" afterPath="$PROJECT_DIR$/web/index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="WebServicesProject.iws" />
@@ -121,15 +78,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RoomServices.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/services/RoomServices.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="51" column="5" selection-start="1482" selection-end="1482" vertical-scroll-proportion="0.0" vertical-offset="428" max-vertical-offset="1054">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Booking.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/dataAccess/bean/Booking.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -149,6 +97,15 @@
                 <element signature="e#0#41#0" expanded="false" />
                 <marker date="1425143738013" expanded="true" signature="109:165" placeholder="[...]" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="0" selection-start="304" selection-end="304" vertical-scroll-proportion="0.23364486" vertical-offset="78" max-vertical-offset="425">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -191,7 +148,7 @@
       <file leaf-file-name="BookingServices.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/services/BookingServices.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="0" selection-start="1348" selection-end="1348" vertical-scroll-proportion="0.0" vertical-offset="613" max-vertical-offset="1190">
+            <state line="37" column="8" selection-start="917" selection-end="921" vertical-scroll-proportion="0.0" vertical-offset="442" max-vertical-offset="1190">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -199,10 +156,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Customer.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Customer.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/dataAccess/bean/Customer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="0" selection-start="211" selection-end="211" vertical-scroll-proportion="0.30259365" vertical-offset="14" max-vertical-offset="612">
+            <state line="7" column="0" selection-start="211" selection-end="211" vertical-scroll-proportion="0.0" vertical-offset="133" max-vertical-offset="612">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -258,7 +215,6 @@
         <option value="$PROJECT_DIR$/web/bower.json" />
         <option value="$PROJECT_DIR$/web/customer/customerCtrl.js" />
         <option value="$PROJECT_DIR$/web/index.js" />
-        <option value="$PROJECT_DIR$/web/index.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/dataAccess/dao/BookingDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/dataAccess/dao/CustomerDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/dataAccess/dao/RoomDAO.java" />
@@ -268,6 +224,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/dataAccess/bean/Room.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/services/CustomerServices.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/services/RoomServices.java" />
+        <option value="$PROJECT_DIR$/web/index.html" />
       </list>
     </option>
   </component>
@@ -321,6 +278,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="WebServicesProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebServicesProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebServicesProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -869,7 +840,7 @@
       <created>1425073182677</created>
       <updated>1425073182677</updated>
       <workItem from="1425073187294" duration="19518000" />
-      <workItem from="1425138393992" duration="10925000" />
+      <workItem from="1425138393992" duration="11321000" />
     </task>
     <task id="LOCAL-00001" summary="Bower Libraries">
       <created>1425088457948</created>
@@ -879,11 +850,15 @@
       <created>1425093431957</created>
       <updated>1425093431957</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Ajout Update et Delete&#10;">
+      <created>1425167932155</created>
+      <updated>1425167932155</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30443000" />
+    <option name="totallyTimeSpent" value="30839000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -934,7 +909,8 @@
     </option>
     <MESSAGE value="Bower Libraries" />
     <MESSAGE value="Bower Libraries&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Bower Libraries&#10;" />
+    <MESSAGE value="Ajout Update et Delete&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajout Update et Delete&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1106,13 +1082,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="13" selection-start="342" selection-end="342" vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="425">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="26" selection-start="226" selection-end="226" vertical-scroll-proportion="0.0" vertical-offset="3" max-vertical-offset="901">
@@ -1149,26 +1118,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/services/BookingServices.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dataAccess/bean/Room.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="0" selection-start="1348" selection-end="1348" vertical-scroll-proportion="0.0" vertical-offset="758" max-vertical-offset="1190">
+        <state line="6" column="0" selection-start="182" selection-end="182" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="663">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/services/CustomerServices.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dataAccess/bean/Customer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="32" selection-start="1485" selection-end="1485" vertical-scroll-proportion="1.2247839" vertical-offset="374" max-vertical-offset="986">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/services/RoomServices.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="5" selection-start="1482" selection-end="1482" vertical-scroll-proportion="0.0" vertical-offset="146" max-vertical-offset="1054">
-          <folding />
+        <state line="7" column="0" selection-start="211" selection-end="211" vertical-scroll-proportion="0.0" vertical-offset="133" max-vertical-offset="612">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1181,21 +1145,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dataAccess/bean/Room.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/services/BookingServices.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="182" selection-end="182" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="663">
+        <state line="37" column="8" selection-start="917" selection-end="921" vertical-scroll-proportion="0.0" vertical-offset="442" max-vertical-offset="1190">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dataAccess/bean/Customer.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/services/CustomerServices.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="211" selection-end="211" vertical-scroll-proportion="0.30259365" vertical-offset="14" max-vertical-offset="612">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="34" column="8" selection-start="973" selection-end="973" vertical-scroll-proportion="0.2939481" vertical-offset="374" max-vertical-offset="1003">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/services/RoomServices.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="8" selection-start="1068" selection-end="1068" vertical-scroll-proportion="0.50144094" vertical-offset="336" max-vertical-offset="1071">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="304" selection-end="304" vertical-scroll-proportion="0.23364486" vertical-offset="78" max-vertical-offset="425">
+          <folding />
         </state>
       </provider>
     </entry>

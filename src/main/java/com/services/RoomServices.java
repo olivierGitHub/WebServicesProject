@@ -34,6 +34,7 @@ public class RoomServices {
                 + "<h3> Votre chambre est de type : " + room.getRoomType() + "</br></h3>";
     }
 
+    @GET
     @Path("/read")
     @Produces("application/json")
     public Room readRoom(){
