@@ -1,3 +1,35 @@
 <div ng-controller="roomCtrl">
     <h1>Hello room</h1>
+    <div id="createRoom" method="GET">
+        <form ng-submit="createRoom()">
+            Enter text and hit enter:
+            <input type="text" ng-model="roomNumber" name="roomNumber" />
+            <input type="text" ng-model="roomType" name="roomType" />
+            <input type="text" ng-model="roomDimension" name="roomDimension" />
+            <input type="submit" class="submit" value="Create New Room" />
+        </form>
+    </div>
+    <div id="readRoom" method="GET">
+        <form ng-submit="readRoom()">
+            Enter the room id:
+            <input type="text" ng-model="idRoom" name="idRoom" />
+            <input type="submit" class="submit" value="Read Existing Room" />
+        </form>
+    </div>
+    <div id="updateRoom" method="GET">
+        <form ng-submit="updateRoom()">
+            Enter text and hit enter:
+            <input type="text" ng-model="roomNumberU" name="roomNumberU" />
+            <input type="text" ng-model="roomTypeU" name="roomTypeU" />
+            <input type="text" ng-model="roomDimensionU" name="roomDimensionU" />
+            <input type="submit" class="submit" value="Update Room" />
+        </form>
+    </div>
+    <div id="deleteRoom"method="GET">
+        <form ng-submit="deleteRoom()">
+            Enter text and hit enter:
+            <input type="text" ng-model="idRoomD" name="idRoomD" />
+            <input type="submit" class="submit" value="Delete Room" />
+        </form>
+    </div>
 </div>

@@ -13,12 +13,6 @@ import javax.ws.rs.*;
 @Path("/customer")
 public class CustomerServices {
 
-    Customer customer = new Customer();
-        {
-            customer.setFirstName("Terry");
-            customer.setLastName("Bogard");
-        }
-
     @GET
     @Path("/create")
     @Produces("text/html")
