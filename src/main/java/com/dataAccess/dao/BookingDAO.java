@@ -3,10 +3,8 @@ package com.dataAccess.dao;
 import com.dataAccess.bean.Booking;
 import com.dataAccess.dao.common.DAO;
 
-import javax.persistence.EntityManager;
-import javax.persistence.EntityManagerFactory;
-import javax.persistence.EntityTransaction;
-import javax.persistence.Persistence;
+import javax.persistence.*;
+import java.util.List;
 
 /**
  * Created by oliver on 27/02/15.
@@ -103,5 +101,27 @@ public class BookingDAO implements DAO<Booking>{
                 em.close();
             }
         }
+    }
+
+    public List<Booking> readALL() {
+        EntityManager em = emf.createEntityManager();
+        EntityTransaction t = em.getTransaction();
+        List<Booking> listBooking = null;
+
+        try{
+            t.begin();
+            String sql = "select b from Booking b";
+            TypedQuery query = em.createQuery(sql, Booking.class);
+            listBooking = query.getResultList();
+            t.commit();
+        }catch(Exception e){
+            e.printStackTrace();
+        }finally {
+            if (t.isActive()){
+                t.rollback();
+                em.close();
+            }
+        }
+        return listBooking;
     }
 }

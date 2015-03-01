@@ -7,6 +7,7 @@ import javax.ws.rs.GET;
 import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
 import java.util.Date;
+import java.util.List;
 
 /**
  * Created by oliver on 27/02/15.
@@ -60,5 +61,11 @@ public class BookingServices {
         return "<h3> Delete Completed</h3>";
     }
 
+    @GET
+    @Path("/readALL")
+    @Produces("application/json")
+    public List<Booking> readAllBooking(){
+        return BookingDAO.getInstance().readALL();
+    }
 
 }
