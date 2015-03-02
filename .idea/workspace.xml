@@ -144,7 +144,7 @@
       <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="0" selection-start="226" selection-end="226" vertical-scroll-proportion="0.5771605" vertical-offset="0" max-vertical-offset="612">
+            <state line="6" column="21" selection-start="121" selection-end="121" vertical-scroll-proportion="0.3148148" vertical-offset="0" max-vertical-offset="612">
               <folding />
             </state>
           </provider>
@@ -807,7 +807,7 @@
       <workItem from="1425174652265" duration="14120000" />
       <workItem from="1425230575978" duration="5176000" />
       <workItem from="1425237037705" duration="6361000" />
-      <workItem from="1425243615538" duration="6652000" />
+      <workItem from="1425243615538" duration="6708000" />
     </task>
     <task id="LOCAL-00001" summary="Bower Libraries">
       <created>1425088457948</created>
@@ -929,11 +929,15 @@
       <created>1425258251277</created>
       <updated>1425258251277</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="RAF (Reste A Faire)&#10;&#10;Manage post request&#10;Link the table using JPA (one to many, many to one etc...)&#10;Display response result from readAll request&#10;">
+      <created>1425258337617</created>
+      <updated>1425258337617</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67907000" />
+    <option name="totallyTimeSpent" value="67963000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -997,7 +1001,8 @@
     <MESSAGE value="Ajout d'un READ ME" />
     <MESSAGE value="Adding of bookingRoom parameter in booking functionality&#10;" />
     <MESSAGE value="RAF (Reste A Faire)&#10;&#10;Manage post request&#10;Link the table using JPA (one to many, many to one etc...)&#10;Display response result from readAll request&#10;&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="RAF (Reste A Faire)&#10;&#10;Manage post request&#10;Link the table using JPA (one to many, many to one etc...)&#10;Display response result from readAll request&#10;&#10;" />
+    <MESSAGE value="RAF (Reste A Faire)&#10;&#10;Manage post request&#10;Link the table using JPA (one to many, many to one etc...)&#10;Display response result from readAll request&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="RAF (Reste A Faire)&#10;&#10;Manage post request&#10;Link the table using JPA (one to many, many to one etc...)&#10;Display response result from readAll request&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1361,7 +1366,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="226" selection-end="226" vertical-scroll-proportion="0.5771605" vertical-offset="0" max-vertical-offset="612">
+        <state line="6" column="21" selection-start="121" selection-end="121" vertical-scroll-proportion="0.3148148" vertical-offset="0" max-vertical-offset="612">
           <folding />
         </state>
       </provider>
