@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdccdc2a-9c3d-4981-926d-0243692af73b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/dataAccess/bean/Booking.java" afterPath="$PROJECT_DIR$/src/main/java/com/dataAccess/bean/Booking.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/services/BookingServices.java" afterPath="$PROJECT_DIR$/src/main/java/com/services/BookingServices.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/booking/booking.html" afterPath="$PROJECT_DIR$/web/booking/booking.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/booking/bookingCtrl.js" afterPath="$PROJECT_DIR$/web/booking/bookingCtrl.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="WebServicesProject.iws" />
@@ -70,16 +73,25 @@
       <file leaf-file-name="web.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="0" selection-start="517" selection-end="517" vertical-scroll-proportion="0.0" vertical-offset="158" max-vertical-offset="612">
+            <state line="7" column="46" selection-start="348" selection-end="348" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/home/home.html">
+      <file leaf-file-name="bookingCtrl.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/booking/bookingCtrl.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="39" selection-start="144" selection-end="144" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="204">
+            <state line="96" column="36" selection-start="3988" selection-end="3988" vertical-scroll-proportion="0.0" vertical-offset="1375" max-vertical-offset="1819">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BookingServices.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/services/BookingServices.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="58" column="40" selection-start="2044" selection-end="2044" vertical-scroll-proportion="1.8452722" vertical-offset="172" max-vertical-offset="1309">
               <folding />
             </state>
           </provider>
@@ -103,24 +115,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DAO.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/dataAccess/dao/common/DAO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="20" selection-start="148" selection-end="148" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="306">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="booking.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/booking/booking.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="32" selection-start="66" selection-end="66" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="782">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="roomCtrl.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/room/roomCtrl.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -128,6 +122,15 @@
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="booking.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/booking/booking.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="73" selection-start="1469" selection-end="1469" vertical-scroll-proportion="-5.6153846" vertical-offset="245" max-vertical-offset="816">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -141,10 +144,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="9" selection-start="544" selection-end="544" vertical-scroll-proportion="0.73602486" vertical-offset="35" max-vertical-offset="459">
+            <state line="16" column="9" selection-start="544" selection-end="544" vertical-scroll-proportion="-10.88" vertical-offset="0" max-vertical-offset="459">
               <folding />
             </state>
           </provider>
@@ -204,16 +207,12 @@
         <option value="$PROJECT_DIR$/src/main/java/com/dataAccess/dao/BookingDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/dataAccess/dao/CustomerDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/dataAccess/dao/common/DAO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/dataAccess/bean/Booking.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/services/BookingServices.java" />
         <option value="$PROJECT_DIR$/web/index.css" />
         <option value="$PROJECT_DIR$/web/customer/customer.css" />
         <option value="$PROJECT_DIR$/web/room/room.css" />
         <option value="$PROJECT_DIR$/web/booking/booking.css" />
         <option value="$PROJECT_DIR$/web/room/roomCtrl.js" />
         <option value="$PROJECT_DIR$/web/customer/customerCtrl.js" />
-        <option value="$PROJECT_DIR$/web/booking/bookingCtrl.js" />
-        <option value="$PROJECT_DIR$/web/booking/booking.html" />
         <option value="$PROJECT_DIR$/web/customer/customer.html" />
         <option value="$PROJECT_DIR$/web/room/room.html" />
         <option value="$PROJECT_DIR$/web/home/home.html" />
@@ -223,6 +222,10 @@
         <option value="$PROJECT_DIR$/web/index.js" />
         <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dataAccess/bean/Booking.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/services/BookingServices.java" />
+        <option value="$PROJECT_DIR$/web/booking/booking.html" />
+        <option value="$PROJECT_DIR$/web/booking/bookingCtrl.js" />
       </list>
     </option>
   </component>
@@ -330,14 +333,6 @@
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="META-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -354,6 +349,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -865,7 +864,7 @@
       <workItem from="1425174652265" duration="14120000" />
       <workItem from="1425230575978" duration="5176000" />
       <workItem from="1425237037705" duration="6361000" />
-      <workItem from="1425243615538" duration="1272000" />
+      <workItem from="1425243615538" duration="5940000" />
     </task>
     <task id="LOCAL-00001" summary="Bower Libraries">
       <created>1425088457948</created>
@@ -975,15 +974,19 @@
       <created>1425243140301</created>
       <updated>1425243140301</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Ajout d'un READ ME">
+      <created>1425245980307</created>
+      <updated>1425245980308</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62527000" />
+    <option name="totallyTimeSpent" value="67195000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32922536" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -999,20 +1002,20 @@
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32764506" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32764506" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32764506" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37059724" sideWeight="0.5013123" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32922536" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.36555892" sideWeight="0.49868765" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32423207" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.36555892" sideWeight="0.49868765" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32423207" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32764506" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32764506" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1040,7 +1043,8 @@
     <MESSAGE value="CSS style sheets added&#10;&#10;&#10;" />
     <MESSAGE value="Some Warning in html template file deleted&#10;" />
     <MESSAGE value="Cleaning of the warnings in js files using JsHint&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cleaning of the warnings in js files using JsHint&#10;" />
+    <MESSAGE value="Ajout d'un READ ME" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajout d'un READ ME" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1238,20 +1242,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/booking/bookingCtrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="82" column="19" selection-start="3279" selection-end="3279" vertical-scroll-proportion="0.0" vertical-offset="1282" max-vertical-offset="1853">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/booking/booking.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="32" selection-start="66" selection-end="66" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="782">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/customer/customer.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="33" selection-start="68" selection-end="68" vertical-scroll-proportion="-0.65384614" vertical-offset="0" max-vertical-offset="646">
@@ -1262,13 +1252,6 @@
     <entry file="file://$PROJECT_DIR$/web/home/home.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="39" selection-start="144" selection-end="144" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="204">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dataAccess/bean/Booking.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="206" selection-end="206" vertical-scroll-proportion="0.3323782" vertical-offset="20" max-vertical-offset="680">
           <folding />
         </state>
       </provider>
@@ -1294,13 +1277,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dataAccess/dao/BookingDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="115" column="26" selection-start="2945" selection-end="2945" vertical-scroll-proportion="0.3323782" vertical-offset="1737" max-vertical-offset="2176">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/dataAccess/dao/CustomerDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="96" column="22" selection-start="2401" selection-end="2401" vertical-scroll-proportion="0.37249285" vertical-offset="1366" max-vertical-offset="1853">
@@ -1318,13 +1294,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/rest/MyServices.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="33" selection-start="516" selection-end="516" vertical-scroll-proportion="0.0" vertical-offset="93" max-vertical-offset="442">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/services/BookingServices.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="21" selection-start="2347" selection-end="2347" vertical-scroll-proportion="0.730659" vertical-offset="782" max-vertical-offset="1258">
           <folding />
         </state>
       </provider>
@@ -1361,13 +1330,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="517" selection-end="517" vertical-scroll-proportion="0.0" vertical-offset="158" max-vertical-offset="612">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/room/room.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="54" selection-start="203" selection-end="203" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="850">
@@ -1400,12 +1362,58 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="9" selection-start="544" selection-end="544" vertical-scroll-proportion="0.73602486" vertical-offset="35" max-vertical-offset="459">
+        <state line="16" column="9" selection-start="544" selection-end="544" vertical-scroll-proportion="-10.88" vertical-offset="0" max-vertical-offset="459">
           <folding />
         </state>
       </provider>
       <provider editor-type-id="MarkdownPreviewEditor">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dataAccess/dao/BookingDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="71" column="0" selection-start="0" selection-end="3222" vertical-scroll-proportion="0.0" vertical-offset="1088" max-vertical-offset="2176">
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#394#395#0" expanded="false" />
+            <element signature="e#425#426#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="46" selection-start="348" selection-end="348" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dataAccess/bean/Booking.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="5" selection-start="790" selection-end="790" vertical-scroll-proportion="0.75358164" vertical-offset="145" max-vertical-offset="680">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/booking/booking.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="73" selection-start="1469" selection-end="1469" vertical-scroll-proportion="-5.6153846" vertical-offset="245" max-vertical-offset="816">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/booking/bookingCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="96" column="36" selection-start="3988" selection-end="3988" vertical-scroll-proportion="0.0" vertical-offset="1375" max-vertical-offset="1819">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/services/BookingServices.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="40" selection-start="2044" selection-end="2044" vertical-scroll-proportion="1.8452722" vertical-offset="172" max-vertical-offset="1309">
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>

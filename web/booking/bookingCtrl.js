@@ -6,13 +6,13 @@ angular.module('bookingApp', [])
     .controller('bookingCtrl', ['$scope', '$state', 'bookingService', function ($scope, $state, bookingService) {
         'use strict';
         $scope.createBooking = function(){
-            bookingService.createBooking($scope.bookingName,$scope.arrivalDate,$scope.departureDate);
+            bookingService.createBooking($scope.bookingName,$scope.bookingRoom,$scope.arrivalDate,$scope.departureDate);
         };
         $scope.readBooking = function(){
             bookingService.readBooking($scope.idBooking);
         };
         $scope.updateBooking = function(){
-            bookingService.updateBooking($scope.bookingNameU,$scope.arrivalDateU,$scope.departureDateU);
+            bookingService.updateBooking($scope.bookingNameU,$scope.bookingRoomU,$scope.arrivalDateU,$scope.departureDateU);
         };
         $scope.deleteBooking = function(){
             bookingService.deleteBooking($scope.idBookingD);
@@ -24,11 +24,11 @@ angular.module('bookingApp', [])
 
     .service('bookingService', function ($http){
         'use strict';
-        function create(bookingName, arrivalDate, departureDate){
+        function create(bookingName, bookingRoom, arrivalDate, departureDate){
             $http({
                 method: 'GET',
                 url: "http://localhost:8080/WebServicesProject/rest/booking/create",
-                params: {bookingName:bookingName, arrivalDate:arrivalDate, departureDate:departureDate}
+                params: {bookingName:bookingName,bookingRoom:bookingRoom, arrivalDate:arrivalDate, departureDate:departureDate}
             }).success(function(){
                     window.alert("Booking creation success OK");
                 }).error(function(){
@@ -48,11 +48,11 @@ angular.module('bookingApp', [])
             });
         }
 
-        function update(bookingNameU, arrivalDateU, departureDateU){
+        function update(bookingNameU, bookingRoomU, arrivalDateU, departureDateU){
             $http({
                 method: 'GET',
                 url :"http://localhost:8080/WebServicesProject/rest/booking/update",
-                params:{bookingNameU:bookingNameU, arrivalDateU:arrivalDateU, departureDateU:departureDateU}
+                params:{bookingNameU:bookingNameU, bookingRoomU:bookingRoomU, arrivalDateU:arrivalDateU, departureDateU:departureDateU}
             }).success(function(){
                     window.alert("Booking update success");
                 }).error(function(){
@@ -84,14 +84,14 @@ angular.module('bookingApp', [])
         }
 
         return {
-            createBooking: function (bookingName, arrivalDate, departureDate) {
-                create (bookingName, arrivalDate, departureDate);
+            createBooking: function (bookingName, bookingRoom,arrivalDate, departureDate) {
+                create (bookingName, bookingRoom, arrivalDate, departureDate);
             },
             readBooking: function (idCustomer) {
                 read (idCustomer);
             },
-            updateBooking: function(bookingNameU, arrivalDateU, departureDateU){
-                update(bookingNameU, arrivalDateU, departureDateU);
+            updateBooking: function(bookingNameU, bookingRoomU, arrivalDateU, departureDateU){
+                update(bookingNameU, bookingRoomU, arrivalDateU, departureDateU);
             },
             deleteBooking: function(idCustomerD){
                 remove(idCustomerD);

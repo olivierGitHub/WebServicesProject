@@ -22,12 +22,14 @@ public class BookingServices {
     @Path("/create")
     @Produces("text/html")
     public String createBooking(@QueryParam("bookingName") String bookingName,
+                                @QueryParam("bookingRoom") int bookingRoom,
                                 @QueryParam("arrivalDate") String arrivalDate,
                                 @QueryParam("departureDate") String departureDate){
         Booking booking1 = new Booking();
         SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
         try{
             booking1.setBookingName(bookingName);
+            booking1.setBookingRoom(bookingRoom);
             booking1.setArrivalDate(sdf.parse(arrivalDate));
             booking1.setDepartureDate(sdf.parse(departureDate));
         }catch(ParseException e){
@@ -37,7 +39,7 @@ public class BookingServices {
                 + BookingDAO.getInstance().create(booking1) + "</h2>"
                 + "</br>"
                 + "<h3> Nous sommes heureux, Mr/Mme " + booking1.getBookingName()
-                +"de vous acceuillir dans notre hotel" + " du   " + booking1.getArrivalDate()
+                +" de vous acceuillir dans notre hotel" + " du   " + booking1.getArrivalDate()
                 + "   au   " + booking1.getDepartureDate() + ".</h3>";
     }
 
@@ -54,6 +56,7 @@ public class BookingServices {
     public String updateBooking(){
         Booking booking2 =new Booking();
             booking2.setBookingName("Andy");
+            booking2.setBookingRoom(1515);
             booking2.setArrivalDate(new Date());
             booking2.setDepartureDate(new Date());
         BookingDAO.getInstance().update(booking2);
