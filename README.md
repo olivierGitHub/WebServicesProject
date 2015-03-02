@@ -1,5 +1,14 @@
 # WebServicesProject
-projet Younsi 26/02/2015
+projet Younsi Web Services (Hotel management)26/02/2015
+
+
+RAF (Reste A Faire)
+
+Manage post request
+Link the table using JPA (one to many, many to one etc...)
+Display response result from readAll request
+
+
 
 Pour executer le projet, 3 étapes sont nécessaires:
 
