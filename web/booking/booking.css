@@ -5,7 +5,7 @@
     border: 1px solid black;
     border-radius: 2px;
     margin-left: 20px;
-    background-image:linear-gradient(white 60%, green);
+    background-image:linear-gradient(white 60%, #6666FF);
 }
 
 #readBooking{
@@ -25,7 +25,7 @@
     border: 1px solid black;
     border-radius: 2px;
     margin-left: 540px;
-    background-image:linear-gradient(white 60%, green);
+    background-image:linear-gradient(white 60%, #6666FF);
 }
 
 #deleteBooking{
@@ -45,7 +45,7 @@
     border: 1px solid black;
     border-radius: 2px;
     margin-left: 1060px;
-    background-image:linear-gradient(white 60%, green);
+    background-image:linear-gradient(white 60%, #6666FF);
 }
 
 .formBooking{
@@ -56,3 +56,16 @@
     position: relative;
     margin-left: 950px;
 }
+
+table, th, td {
+    border: 1px solid black;
+}
+th, td {
+    padding: 5px;
+}
+td {
+    margin-left: 10px;
+}
+
+tr:nth-child(odd) {background: #99CCFF}
+tr:nth-child(even) {background: #FFF}

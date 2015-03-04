@@ -5,7 +5,7 @@
     border: 1px solid black;
     border-radius: 2px;
     margin-left: 20px;
-    background-image:linear-gradient(white 60%, blue);
+    background-image:linear-gradient(white 60%, green);
 }
 
 #readCustomer{
@@ -25,7 +25,7 @@
     border: 1px solid black;
     border-radius: 2px;
     margin-left: 680px;
-    background-image:linear-gradient(white 60%, blue);
+    background-image:linear-gradient(white 60%, green);
 }
 
 #deleteCustomer{
