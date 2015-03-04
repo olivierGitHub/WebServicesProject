@@ -26,5 +26,9 @@ angular.module('myApp', ['ui.router', 'customerApp', 'roomApp', 'bookingApp', 'h
             .state('home.booking', {
                 url: '/booking',
                 templateUrl: 'booking/booking.html'
+            })
+            .state('home.bookingList', {
+                url: '/bookingList',
+                templateUrl: 'booking/bookingList.html'
             });
     });

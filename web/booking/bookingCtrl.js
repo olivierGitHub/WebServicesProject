@@ -3,8 +3,9 @@
  */
 /*global angular*/
 angular.module('bookingApp', [])
-    .controller('bookingCtrl', ['$scope', '$state', 'bookingService', function ($scope, $state, bookingService) {
+    .controller('bookingCtrl', ['$scope', '$rootScope', '$state', 'bookingService', function ($scope, $rootScope, $state, bookingService) {
         'use strict';
+        $scope.listBooking = [];
         $scope.createBooking = function(){
             bookingService.createBooking($scope.bookingName,$scope.bookingRoom,$scope.arrivalDate,$scope.departureDate);
         };
@@ -22,7 +23,7 @@ angular.module('bookingApp', [])
         };
     }])
 
-    .service('bookingService', function ($http){
+    .service('bookingService', function ($http, $rootScope){
         'use strict';
         function create(bookingName, bookingRoom, arrivalDate, departureDate){
             $http({
@@ -76,7 +77,8 @@ angular.module('bookingApp', [])
             $http({
                 method: 'GET',
                 url: "http://localhost:8080/WebServicesProject/rest/booking/readALL"
-            }).success(function(){
+            }).success(function(data){
+                    $rootScope.listBooking = data;
                     window.alert("Booking read ALL success");
                 }).error(function(){
                     window.alert("Booking read ALL failed");

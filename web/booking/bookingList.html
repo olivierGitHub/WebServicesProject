@@ -1,0 +1,13 @@
+<div>
+    <ul id="bookingList">
+        <li ng-repeat="booking in listBooking |orderBy:'bookingNumber'">
+            <div class="view">
+                <label>Booking Number: {{booking.bookingNumber}}</label>
+                <label>Booking Name: {{booking.bookingName}}</label>
+                <label>Booking Room: {{booking.bookingRoom}}</label>
+                <label>Arrival Date: {{booking.arrivalDate}}</label>
+                <label>Departure Date: {{booking.departureDate}}</label>
+            </div>
+        </li>
+    </ul>
+</div>
