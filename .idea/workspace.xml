@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="cdccdc2a-9c3d-4981-926d-0243692af73b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/booking/bookingCtrl.js" afterPath="$PROJECT_DIR$/web/booking/bookingCtrl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/booking/bookingList.html" afterPath="$PROJECT_DIR$/web/booking/bookingList.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="WebServicesProject.iws" />
@@ -68,10 +67,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="bookingCtrl.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="bookingCtrl.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/booking/bookingCtrl.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="10" selection-start="867" selection-end="867" vertical-scroll-proportion="0.0" vertical-offset="58" max-vertical-offset="1870">
+            <state line="81" column="50" selection-start="3385" selection-end="3385" vertical-scroll-proportion="0.5089286" vertical-offset="1172" max-vertical-offset="1853">
               <folding />
             </state>
           </provider>
@@ -115,10 +114,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="homeCtrl.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="homeCtrl.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/home/homeCtrl.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="8" selection-start="201" selection-end="201" vertical-scroll-proportion="0.38968483" vertical-offset="0" max-vertical-offset="349">
+            <state line="8" column="8" selection-start="201" selection-end="201" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -228,8 +227,8 @@
         <option value="$PROJECT_DIR$/web/customer/customer.css" />
         <option value="$PROJECT_DIR$/web/booking/booking.css" />
         <option value="$PROJECT_DIR$/web/booking/bookingList.html" />
-        <option value="$PROJECT_DIR$/web/booking/bookingCtrl.js" />
         <option value="$PROJECT_DIR$/web/home/homeCtrl.js" />
+        <option value="$PROJECT_DIR$/web/booking/bookingCtrl.js" />
       </list>
     </option>
   </component>
@@ -772,7 +771,7 @@
       <workItem from="1425237037705" duration="6361000" />
       <workItem from="1425243615538" duration="6724000" />
       <workItem from="1425332804576" duration="1057000" />
-      <workItem from="1425406055041" duration="7277000" />
+      <workItem from="1425406055041" duration="7424000" />
     </task>
     <task id="LOCAL-00001" summary="Bower Libraries">
       <created>1425088457948</created>
@@ -910,11 +909,15 @@
       <created>1425433572838</created>
       <updated>1425433572838</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Adding of booking result list CSS&#10;&#10;To do: go to the bookingList state automatically ACHIEVED SUCCESFULLY&#10;">
+      <created>1425435347336</created>
+      <updated>1425435347336</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76313000" />
+    <option name="totallyTimeSpent" value="76460000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -981,7 +984,8 @@
     <MESSAGE value="RAF (Reste A Faire)&#10;&#10;Manage post request&#10;Link the table using JPA (one to many, many to one etc...)&#10;Display response result from readAll request&#10;" />
     <MESSAGE value="Adding of booking resul list&#10;&#10;To do: go to the bookingList state automatically&#10;" />
     <MESSAGE value="Adding of booking result list CSS&#10;&#10;To do: go to the bookingList state automatically&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding of booking result list CSS&#10;&#10;To do: go to the bookingList state automatically&#10;" />
+    <MESSAGE value="Adding of booking result list CSS&#10;&#10;To do: go to the bookingList state automatically ACHIEVED SUCCESFULLY&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding of booking result list CSS&#10;&#10;To do: go to the bookingList state automatically ACHIEVED SUCCESFULLY&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1278,19 +1282,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/booking/bookingCtrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="10" selection-start="867" selection-end="867" vertical-scroll-proportion="0.0" vertical-offset="58" max-vertical-offset="1870">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/home/homeCtrl.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="8" selection-start="201" selection-end="201" vertical-scroll-proportion="0.38968483" vertical-offset="0" max-vertical-offset="349">
+        <state line="8" column="8" selection-start="201" selection-end="201" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/booking/bookingCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="81" column="50" selection-start="3385" selection-end="3385" vertical-scroll-proportion="0.5089286" vertical-offset="1172" max-vertical-offset="1853">
+          <folding />
         </state>
       </provider>
     </entry>

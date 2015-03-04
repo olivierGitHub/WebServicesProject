@@ -80,7 +80,6 @@ angular.module('bookingApp', [])
                 url: "http://localhost:8080/WebServicesProject/rest/booking/readALL"
             }).success(function(data){
                     $rootScope.listBooking = data;
-                    window.alert("Booking read ALL success");
                 }).error(function(){
                     window.alert("Booking read ALL failed");
                 });
