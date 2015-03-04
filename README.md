@@ -6,7 +6,7 @@ RAF (Reste A Faire)
 
 Manage POST request,
 Link the table using JPA (one to many, many to one etc...)
-option: existing customer vs non-existing customer
+optional: existing customer vs non-existing customer
 
 
 

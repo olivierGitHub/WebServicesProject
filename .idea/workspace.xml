@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cdccdc2a-9c3d-4981-926d-0243692af73b" name="Default" comment="Adding of booking result list CSS&#10;&#10;To do: go to the bookingList state automatically ACHIEVED SUCCESSFULLY&#10;">
+    <list default="true" id="cdccdc2a-9c3d-4981-926d-0243692af73b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -152,7 +152,7 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="0" selection-start="231" selection-end="231" vertical-scroll-proportion="0.30555555" vertical-offset="54" max-vertical-offset="629">
+            <state line="9" column="0" selection-start="233" selection-end="233" vertical-scroll-proportion="0.30555555" vertical-offset="54" max-vertical-offset="629">
               <folding />
             </state>
           </provider>
@@ -771,7 +771,7 @@
       <workItem from="1425237037705" duration="6361000" />
       <workItem from="1425243615538" duration="6724000" />
       <workItem from="1425332804576" duration="1057000" />
-      <workItem from="1425406055041" duration="7571000" />
+      <workItem from="1425406055041" duration="7673000" />
     </task>
     <task id="LOCAL-00001" summary="Bower Libraries">
       <created>1425088457948</created>
@@ -917,11 +917,15 @@
       <created>1425435472919</created>
       <updated>1425435472919</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="RAF (Reste A Faire)&#10;&#10;Manage POST request&#10;Link the table using JPA (one to many, many to one)&#10;optional: existing customer vs non-existing cunstomer&#10;">
+      <created>1425435699882</created>
+      <updated>1425435699882</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76607000" />
+    <option name="totallyTimeSpent" value="76709000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -990,7 +994,8 @@
     <MESSAGE value="Adding of booking result list CSS&#10;&#10;To do: go to the bookingList state automatically&#10;" />
     <MESSAGE value="Adding of booking result list CSS&#10;&#10;To do: go to the bookingList state automatically ACHIEVED SUCCESFULLY&#10;" />
     <MESSAGE value="Adding of booking result list CSS&#10;&#10;To do: go to the bookingList state automatically ACHIEVED SUCCESSFULLY&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding of booking result list CSS&#10;&#10;To do: go to the bookingList state automatically ACHIEVED SUCCESSFULLY&#10;" />
+    <MESSAGE value="RAF (Reste A Faire)&#10;&#10;Manage POST request&#10;Link the table using JPA (one to many, many to one)&#10;optional: existing customer vs non-existing cunstomer&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="RAF (Reste A Faire)&#10;&#10;Manage POST request&#10;Link the table using JPA (one to many, many to one)&#10;optional: existing customer vs non-existing cunstomer&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1298,7 +1303,7 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="231" selection-end="231" vertical-scroll-proportion="0.30555555" vertical-offset="54" max-vertical-offset="629">
+        <state line="9" column="0" selection-start="233" selection-end="233" vertical-scroll-proportion="0.30555555" vertical-offset="54" max-vertical-offset="629">
           <folding />
         </state>
       </provider>
