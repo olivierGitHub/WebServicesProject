@@ -20,6 +20,7 @@ angular.module('bookingApp', [])
         };
         $scope.readAllBooking = function(){
             bookingService.readAllBooking();
+            $state.go('home.bookingList');
         };
     }])
 

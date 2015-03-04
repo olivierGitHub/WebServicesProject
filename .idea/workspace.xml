@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdccdc2a-9c3d-4981-926d-0243692af73b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/booking/booking.css" afterPath="$PROJECT_DIR$/web/booking/booking.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/booking/bookingCtrl.js" afterPath="$PROJECT_DIR$/web/booking/bookingCtrl.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/booking/bookingList.html" afterPath="$PROJECT_DIR$/web/booking/bookingList.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/customer/customer.css" afterPath="$PROJECT_DIR$/web/customer/customer.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="WebServicesProject.iws" />
@@ -72,7 +71,7 @@
       <file leaf-file-name="bookingCtrl.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/booking/bookingCtrl.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="44" selection-start="956" selection-end="956" vertical-scroll-proportion="0.0" vertical-offset="58" max-vertical-offset="1853">
+            <state line="19" column="10" selection-start="867" selection-end="867" vertical-scroll-proportion="0.0" vertical-offset="58" max-vertical-offset="1870">
               <folding />
             </state>
           </provider>
@@ -98,10 +97,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="booking.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="booking.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/booking/booking.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="55" selection-start="1057" selection-end="1057" vertical-scroll-proportion="-0.46131805" vertical-offset="960" max-vertical-offset="1309">
+            <state line="71" column="0" selection-start="1357" selection-end="1357" vertical-scroll-proportion="0.0" vertical-offset="960" max-vertical-offset="1309">
               <folding />
             </state>
           </provider>
@@ -116,10 +115,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="homeCtrl.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="homeCtrl.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/home/homeCtrl.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="21" selection-start="192" selection-end="192" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
+            <state line="8" column="8" selection-start="201" selection-end="201" vertical-scroll-proportion="0.38968483" vertical-offset="0" max-vertical-offset="349">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -130,7 +129,7 @@
       <file leaf-file-name="bookingList.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/booking/bookingList.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="9" selection-start="15" selection-end="15" vertical-scroll-proportion="-0.65384614" vertical-offset="0" max-vertical-offset="408">
+            <state line="2" column="27" selection-start="43" selection-end="43" vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="442">
               <folding>
                 <element signature="n#style#0;n#table#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#tr#1;n#table#0;n#div#0;n#!!top" expanded="true" />
@@ -224,13 +223,13 @@
         <option value="$PROJECT_DIR$/src/main/java/com/services/BookingServices.java" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/web/index.js" />
-        <option value="$PROJECT_DIR$/web/booking/bookingCtrl.js" />
-        <option value="$PROJECT_DIR$/web/home/homeCtrl.js" />
         <option value="$PROJECT_DIR$/web/home/home.html" />
         <option value="$PROJECT_DIR$/web/booking/booking.html" />
-        <option value="$PROJECT_DIR$/web/booking/bookingList.html" />
         <option value="$PROJECT_DIR$/web/customer/customer.css" />
         <option value="$PROJECT_DIR$/web/booking/booking.css" />
+        <option value="$PROJECT_DIR$/web/booking/bookingList.html" />
+        <option value="$PROJECT_DIR$/web/booking/bookingCtrl.js" />
+        <option value="$PROJECT_DIR$/web/home/homeCtrl.js" />
       </list>
     </option>
   </component>
@@ -773,7 +772,7 @@
       <workItem from="1425237037705" duration="6361000" />
       <workItem from="1425243615538" duration="6724000" />
       <workItem from="1425332804576" duration="1057000" />
-      <workItem from="1425406055041" duration="6093000" />
+      <workItem from="1425406055041" duration="7277000" />
     </task>
     <task id="LOCAL-00001" summary="Bower Libraries">
       <created>1425088457948</created>
@@ -907,11 +906,15 @@
       <created>1425431599335</created>
       <updated>1425431599335</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Adding of booking result list CSS&#10;&#10;To do: go to the bookingList state automatically&#10;">
+      <created>1425433572838</created>
+      <updated>1425433572838</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75129000" />
+    <option name="totallyTimeSpent" value="76313000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -977,7 +980,8 @@
     <MESSAGE value="RAF (Reste A Faire)&#10;&#10;Manage post request&#10;Link the table using JPA (one to many, many to one etc...)&#10;Display response result from readAll request&#10;&#10;" />
     <MESSAGE value="RAF (Reste A Faire)&#10;&#10;Manage post request&#10;Link the table using JPA (one to many, many to one etc...)&#10;Display response result from readAll request&#10;" />
     <MESSAGE value="Adding of booking resul list&#10;&#10;To do: go to the bookingList state automatically&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding of booking resul list&#10;&#10;To do: go to the bookingList state automatically&#10;" />
+    <MESSAGE value="Adding of booking result list CSS&#10;&#10;To do: go to the bookingList state automatically&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding of booking result list CSS&#10;&#10;To do: go to the bookingList state automatically&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1217,31 +1221,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/home/homeCtrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="21" selection-start="192" selection-end="192" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/home/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="6" selection-start="312" selection-end="312" vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="221">
-          <folding>
-            <element signature="n#style#0;n#h1#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/booking/bookingCtrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="44" selection-start="956" selection-end="956" vertical-scroll-proportion="0.0" vertical-offset="58" max-vertical-offset="1853">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/booking/booking.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="54" selection-start="214" selection-end="214" vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="816">
@@ -1266,16 +1245,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/booking/bookingList.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="9" selection-start="15" selection-end="15" vertical-scroll-proportion="-0.65384614" vertical-offset="0" max-vertical-offset="408">
-          <folding>
-            <element signature="n#style#0;n#table#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#tr#1;n#table#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/customer/customer.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="53" selection-start="206" selection-end="206" vertical-scroll-proportion="0.0" vertical-offset="440" max-vertical-offset="850">
@@ -1285,8 +1254,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/booking/booking.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="55" selection-start="1057" selection-end="1057" vertical-scroll-proportion="-0.46131805" vertical-offset="960" max-vertical-offset="1309">
+        <state line="71" column="0" selection-start="1357" selection-end="1357" vertical-scroll-proportion="0.0" vertical-offset="960" max-vertical-offset="1309">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/booking/bookingList.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="27" selection-start="43" selection-end="43" vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="442">
+          <folding>
+            <element signature="n#style#0;n#table#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#tr#1;n#table#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/home/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="6" selection-start="312" selection-end="312" vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="221">
+          <folding>
+            <element signature="n#style#0;n#h1#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/booking/bookingCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="10" selection-start="867" selection-end="867" vertical-scroll-proportion="0.0" vertical-offset="58" max-vertical-offset="1870">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/home/homeCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="8" selection-start="201" selection-end="201" vertical-scroll-proportion="0.38968483" vertical-offset="0" max-vertical-offset="349">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
