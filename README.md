@@ -4,9 +4,10 @@ projet Younsi Web Services (Hotel management)26/02/2015
 
 RAF (Reste A Faire)
 
-Manage post request,
-Link the table using JPA (one to many, many to one etc...),
-Display response result from readAll request
+Manage POST request,
+Link the table using JPA (one to many, many to one etc...)
+option: existing customer vs non-existing customer
+
 
 
 

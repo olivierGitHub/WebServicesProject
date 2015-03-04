@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cdccdc2a-9c3d-4981-926d-0243692af73b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/booking/bookingCtrl.js" afterPath="$PROJECT_DIR$/web/booking/bookingCtrl.js" />
+    <list default="true" id="cdccdc2a-9c3d-4981-926d-0243692af73b" name="Default" comment="Adding of booking result list CSS&#10;&#10;To do: go to the bookingList state automatically ACHIEVED SUCCESSFULLY&#10;">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="WebServicesProject.iws" />
@@ -67,10 +67,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="bookingCtrl.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="bookingCtrl.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/booking/bookingCtrl.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="81" column="50" selection-start="3385" selection-end="3385" vertical-scroll-proportion="0.5089286" vertical-offset="1172" max-vertical-offset="1853">
+            <state line="81" column="50" selection-start="3385" selection-end="3385" vertical-scroll-proportion="0.0" vertical-offset="1172" max-vertical-offset="1853">
               <folding />
             </state>
           </provider>
@@ -146,13 +146,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider editor-type-id="MarkdownPreviewEditor">
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="0" selection-start="226" selection-end="226" vertical-scroll-proportion="-3.96" vertical-offset="54" max-vertical-offset="612">
+            <state line="9" column="0" selection-start="231" selection-end="231" vertical-scroll-proportion="0.30555555" vertical-offset="54" max-vertical-offset="629">
               <folding />
             </state>
           </provider>
@@ -220,7 +220,6 @@
         <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/dataAccess/bean/Booking.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/services/BookingServices.java" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/web/index.js" />
         <option value="$PROJECT_DIR$/web/home/home.html" />
         <option value="$PROJECT_DIR$/web/booking/booking.html" />
@@ -229,6 +228,7 @@
         <option value="$PROJECT_DIR$/web/booking/bookingList.html" />
         <option value="$PROJECT_DIR$/web/home/homeCtrl.js" />
         <option value="$PROJECT_DIR$/web/booking/bookingCtrl.js" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -771,7 +771,7 @@
       <workItem from="1425237037705" duration="6361000" />
       <workItem from="1425243615538" duration="6724000" />
       <workItem from="1425332804576" duration="1057000" />
-      <workItem from="1425406055041" duration="7424000" />
+      <workItem from="1425406055041" duration="7571000" />
     </task>
     <task id="LOCAL-00001" summary="Bower Libraries">
       <created>1425088457948</created>
@@ -913,11 +913,15 @@
       <created>1425435347336</created>
       <updated>1425435347336</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Adding of booking result list CSS&#10;&#10;To do: go to the bookingList state automatically ACHIEVED SUCCESSFULLY&#10;">
+      <created>1425435472919</created>
+      <updated>1425435472919</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76460000" />
+    <option name="totallyTimeSpent" value="76607000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -985,7 +989,8 @@
     <MESSAGE value="Adding of booking resul list&#10;&#10;To do: go to the bookingList state automatically&#10;" />
     <MESSAGE value="Adding of booking result list CSS&#10;&#10;To do: go to the bookingList state automatically&#10;" />
     <MESSAGE value="Adding of booking result list CSS&#10;&#10;To do: go to the bookingList state automatically ACHIEVED SUCCESFULLY&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding of booking result list CSS&#10;&#10;To do: go to the bookingList state automatically ACHIEVED SUCCESFULLY&#10;" />
+    <MESSAGE value="Adding of booking result list CSS&#10;&#10;To do: go to the bookingList state automatically ACHIEVED SUCCESSFULLY&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding of booking result list CSS&#10;&#10;To do: go to the bookingList state automatically ACHIEVED SUCCESSFULLY&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1232,16 +1237,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="226" selection-end="226" vertical-scroll-proportion="-3.96" vertical-offset="54" max-vertical-offset="612">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="64" selection-start="816" selection-end="816" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
@@ -1293,7 +1288,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/booking/bookingCtrl.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="81" column="50" selection-start="3385" selection-end="3385" vertical-scroll-proportion="0.5089286" vertical-offset="1172" max-vertical-offset="1853">
+        <state line="81" column="50" selection-start="3385" selection-end="3385" vertical-scroll-proportion="0.0" vertical-offset="1172" max-vertical-offset="1853">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="231" selection-end="231" vertical-scroll-proportion="0.30555555" vertical-offset="54" max-vertical-offset="629">
           <folding />
         </state>
       </provider>
