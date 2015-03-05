@@ -4,24 +4,33 @@
 
 /*global angular*/
 angular.module('roomApp', [])
-    .controller('roomCtrl', ['$scope', '$state', 'roomService', function ($scope, $state, roomService) {
+    .controller('roomCtrl', ['$scope','$rootScope', '$state', 'roomService', function ($scope, $rootScope, $state, roomService) {
         'use strict';
+
+        $scope.roomNumberU = $rootScope.roomNumberToUpdate;
+        $scope.roomNameU = $rootScope.roomTypeToUpdate;
+        $scope.roomDimensionU = $rootScope.roomDimensionToUpdate;
+
         $scope.createRoom = function(){
             roomService.createRoom($scope.roomNumber, $scope.roomType, $scope.roomDimension);
         };
         $scope.readRoom = function(){
             roomService.readRoom($scope.idRoom);
         };
+        $scope.readRoomToUpdate = function(){
+            roomService.readRoomToUpdate($scope.idRoomU);
+        };
         $scope.updateRoom = function(){
-            roomService.updateRoom($scope.roomNumberU, $scope.roomTypeU, $scope.roomDimensionU);
+            roomService.updateRoom($scope.idRoomU,$scope.roomNumberU, $scope.roomTypeU, $scope.roomDimensionU);
         };
         $scope.deleteRoom = function(){
             roomService.deleteRoom($scope.idRoomD);
         };
     }])
 
-    .service('roomService', function ($http){
+    .service('roomService', function ($http, $rootScope){
         'use strict';
+
         function create(roomNumber, roomType, roomDimension){
 
             $http({
@@ -47,11 +56,26 @@ angular.module('roomApp', [])
                 });
         }
 
-        function update(roomNumberU, roomTypeU, roomDimensionU){
+        function readToUpdate(idRoomU){
+            $http({
+                method: 'GET',
+                url: "http://localhost:8080/WebServicesProject/rest/room/readToUpdate",
+                params: {idRoomU: idRoomU}
+            }).success(function(data){
+                    $rootScope.roomNumberToUpdate = data.roomNumber;
+                    $rootScope.roomTypeToUpdate = data.roomType;
+                    $rootScope.roomDimensionToUpdate = data.roomDimension;
+                    window.alert("Room reading success OK");
+                }).error(function(){
+                    window.alert("Room reading failed");
+                });
+        }
+
+        function update(idRoomU,roomNumberU, roomTypeU, roomDimensionU){
             $http({
                 method: 'GET',
                 url :"http://localhost:8080/WebServicesProject/rest/room/update",
-                params:{roomNumberU:roomNumberU, roomTypeU:roomTypeU, roomDimensionU:roomDimensionU}
+                params:{idRoomU:idRoomU,roomNumberU:roomNumberU, roomTypeU:roomTypeU, roomDimensionU:roomDimensionU}
             }).success(function(){
                     window.alert("Room update success");
                 }).error(function(){
@@ -78,8 +102,11 @@ angular.module('roomApp', [])
             readRoom: function (idRoom) {
                 read (idRoom);
             },
-            updateRoom: function(roomNumberU, roomTypeU, roomDimensionU){
-                update(roomNumberU, roomTypeU, roomDimensionU);
+            readRoomToUpdate: function (idRoomU) {
+                readToUpdate (idRoomU);
+            },
+            updateRoom: function(idRoomU,roomNumberU, roomTypeU, roomDimensionU){
+                update(idRoomU,roomNumberU, roomTypeU, roomDimensionU);
             },
             deleteRoom: function(idRoomD){
                 remove(idRoomD);

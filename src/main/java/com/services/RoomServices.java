@@ -41,13 +41,23 @@ public class RoomServices {
     }
 
     @GET
+    @Path("/readToUpdate")
+    @Produces("application/json")
+    public Room readRoomToUpdate(@QueryParam("idRoomU") int idRoom){
+        return RoomDAO.getInstance().read(idRoom);
+    }
+
+    @GET
     @Path("/update")
     @Produces("text/html")
-    public String updateRoom(){
-        Room room = new Room();
-            room.setRoomNumber(1111);
-            room.setRoomDimension(11);
-            room.setRoomType("Double");
+    public String updateRoom(@QueryParam("idRoomU") int idRoom,
+                             @QueryParam("roomNumberU") int roomNumber,
+                             @QueryParam("roomTypeU") String roomType,
+                             @QueryParam("roomDimensionU") int roomDimension){
+        Room room = RoomDAO.getInstance().read(idRoom);
+            room.setRoomNumber(roomNumber);
+            room.setRoomDimension(roomDimension);
+            room.setRoomType(roomType);
         RoomDAO.getInstance().update(room);
         return "<h3> Update Completed</h3>";
     }
