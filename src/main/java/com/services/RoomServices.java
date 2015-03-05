@@ -16,21 +16,14 @@ public class RoomServices {
 
     @GET
     @Path("/create")
-    @Produces("text/html")
-    public String createRoom(@QueryParam("roomNumber") int roomNumber,
+    public void createRoom(@QueryParam("roomNumber") int roomNumber,
                              @QueryParam("roomType") String roomType,
                              @QueryParam("roomDimension") int roomDimension){
         Room room1 = new Room();
             room1.setRoomNumber(roomNumber);
             room1.setRoomType(roomType);
             room1.setRoomDimension(roomDimension);
-        return "<h2>Votre identifiant de chambre est le: "
-                + RoomDAO.getInstance().create(room1) + "</h2>"
-                + "</br>"
-                + "<h3> Nous sommes heureux de vous acceuillir dans notre hotel.</h3></br>"
-                + "<h3> Votre numéro de chambre est le : " + room1.getRoomNumber() + "</br>"
-                + "<h3> La dimesion de votre chambre est de : " + room1.getRoomDimension() + "</br>"
-                + "<h3> Votre chambre est de type : " + room1.getRoomType() + "</br></h3>";
+        RoomDAO.getInstance().create(room1);
     }
 
     @GET
@@ -40,6 +33,7 @@ public class RoomServices {
         return RoomDAO.getInstance().read(idRoom);
     }
 
+    /* Ce web service est utilisé UNIQUEMENT pour l’auto-complete de la VUE */
     @GET
     @Path("/readToUpdate")
     @Produces("application/json")
@@ -49,8 +43,7 @@ public class RoomServices {
 
     @GET
     @Path("/update")
-    @Produces("text/html")
-    public String updateRoom(@QueryParam("idRoomU") int idRoom,
+    public void updateRoom(@QueryParam("idRoomU") int idRoom,
                              @QueryParam("roomNumberU") int roomNumber,
                              @QueryParam("roomTypeU") String roomType,
                              @QueryParam("roomDimensionU") int roomDimension){
@@ -59,15 +52,12 @@ public class RoomServices {
             room.setRoomDimension(roomDimension);
             room.setRoomType(roomType);
         RoomDAO.getInstance().update(room);
-        return "<h3> Update Completed</h3>";
     }
 
     @GET
     @Path("/delete")
-    @Produces("text/html")
-    public String deleteRoom(@QueryParam("idRoomD") int idRoomD){
+    public void deleteRoom(@QueryParam("idRoomD") int idRoomD){
         RoomDAO.getInstance().delete(idRoomD);
-        return "<h3> Delete Completed</h3>";
     }
 
 }

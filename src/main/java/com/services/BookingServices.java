@@ -20,8 +20,7 @@ public class BookingServices {
 
     @GET
     @Path("/create")
-    @Produces("text/html")
-    public String createBooking(@QueryParam("bookingName") String bookingName,
+    public void createBooking(@QueryParam("bookingName") String bookingName,
                                 @QueryParam("bookingRoom") int bookingRoom,
                                 @QueryParam("arrivalDate") String arrivalDate,
                                 @QueryParam("departureDate") String departureDate){
@@ -35,12 +34,7 @@ public class BookingServices {
         }catch(ParseException e){
             e.printStackTrace();
         }
-        return "<h2>Votre identifiant de réservation est le: "
-                + BookingDAO.getInstance().create(booking1) + "</h2>"
-                + "</br>"
-                + "<h3> Nous sommes heureux, Mr/Mme " + booking1.getBookingName()
-                +" de vous acceuillir dans notre hotel" + " du   " + booking1.getArrivalDate()
-                + "   au   " + booking1.getDepartureDate() + ".</h3>";
+        BookingDAO.getInstance().create(booking1);
     }
 
     @GET
@@ -60,8 +54,7 @@ public class BookingServices {
 
     @GET
     @Path("/update")
-    @Produces("text/html")
-    public String updateBooking(@QueryParam("idBookingU") int idBooking,
+    public void updateBooking(@QueryParam("idBookingU") int idBooking,
                                 @QueryParam("bookingNameU") String bookingName,
                                 @QueryParam("bookingRoomU") int bookingRoom,
                                 @QueryParam("arrivalDateU") String arrivalDate,
@@ -76,15 +69,12 @@ public class BookingServices {
         }catch(ParseException e){
             e.printStackTrace();}
         BookingDAO.getInstance().update(booking2);
-        return "<h3> Update Completed</h3>";
     }
 
     @GET
     @Path("/delete")
-    @Produces("text/html")
-    public String deleteBooking(@QueryParam("idBookingD") int idBookingD){
+    public void deleteBooking(@QueryParam("idBookingD") int idBookingD){
         BookingDAO.getInstance().delete(idBookingD);
-        return "<h3> Delete Completed</h3>";
     }
 
     @GET
