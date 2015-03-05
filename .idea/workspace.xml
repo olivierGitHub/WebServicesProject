@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cdccdc2a-9c3d-4981-926d-0243692af73b" name="Default" comment="Update room OK&#10;">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/services/RoomServices.java" afterPath="$PROJECT_DIR$/src/main/java/com/services/RoomServices.java" />
+    <list default="true" id="cdccdc2a-9c3d-4981-926d-0243692af73b" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/booking/bookingDisplay.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/customer/customerDisplay.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/room/roomDisplay.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/booking/booking.html" afterPath="$PROJECT_DIR$/web/booking/booking.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/booking/bookingCtrl.js" afterPath="$PROJECT_DIR$/web/booking/bookingCtrl.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/customer/customer.html" afterPath="$PROJECT_DIR$/web/customer/customer.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/customer/customerCtrl.js" afterPath="$PROJECT_DIR$/web/customer/customerCtrl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/index.js" afterPath="$PROJECT_DIR$/web/index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/room/room.html" afterPath="$PROJECT_DIR$/web/room/room.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/room/roomCtrl.js" afterPath="$PROJECT_DIR$/web/room/roomCtrl.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -74,34 +79,7 @@
       <file leaf-file-name="bookingCtrl.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/booking/bookingCtrl.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="61" selection-start="481" selection-end="658" vertical-scroll-proportion="0.0" vertical-offset="107" max-vertical-offset="2448">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="customerCtrl.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/customer/customerCtrl.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="63" column="64" selection-start="2549" selection-end="2549" vertical-scroll-proportion="0.0" vertical-offset="904" max-vertical-offset="1972">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="booking.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/booking/booking.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="74" selection-start="1479" selection-end="1479" vertical-scroll-proportion="0.3419355" vertical-offset="285" max-vertical-offset="901">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="customer.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/customer/customer.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="75" selection-start="1236" selection-end="1236" vertical-scroll-proportion="-3.5384614" vertical-offset="265" max-vertical-offset="731">
+            <state line="26" column="45" selection-start="1013" selection-end="1046" vertical-scroll-proportion="0.0" vertical-offset="198" max-vertical-offset="2533">
               <folding />
             </state>
           </provider>
@@ -119,48 +97,76 @@
       <file leaf-file-name="bookingList.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/booking/bookingList.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="46" selection-start="457" selection-end="457" vertical-scroll-proportion="-7.1923075" vertical-offset="34" max-vertical-offset="442">
+            <state line="16" column="65" selection-start="586" selection-end="613" vertical-scroll-proportion="-10.461538" vertical-offset="0" max-vertical-offset="442">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
+      <file leaf-file-name="bookingDisplay.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/booking/bookingDisplay.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="0" selection-start="902" selection-end="902" vertical-scroll-proportion="-18.24" vertical-offset="71" max-vertical-offset="629">
-              <folding />
+            <state line="0" column="0" selection-start="0" selection-end="692" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="493">
+              <folding>
+                <element signature="n#style#0;n#table#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
-          <provider editor-type-id="MarkdownPreviewEditor">
-            <state />
+        </entry>
+      </file>
+      <file leaf-file-name="customerDisplay.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/customer/customerDisplay.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="27" selection-start="315" selection-end="315" vertical-scroll-proportion="-6.5384617" vertical-offset="17" max-vertical-offset="340">
+              <folding>
+                <element signature="n#style#0;n#table#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="customerCtrl.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/customer/customerCtrl.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="65" column="72" selection-start="2683" selection-end="2683" vertical-scroll-proportion="0.0" vertical-offset="916" max-vertical-offset="2006">
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="room.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/room/room.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="70" selection-start="1256" selection-end="1256" vertical-scroll-proportion="-6.1923075" vertical-offset="213" max-vertical-offset="765">
+            <state line="20" column="33" selection-start="1071" selection-end="1071" vertical-scroll-proportion="-4.8846154" vertical-offset="213" max-vertical-offset="765">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="roomCtrl.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="roomCtrl.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/room/roomCtrl.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="50" selection-start="876" selection-end="876" vertical-scroll-proportion="0.0" vertical-offset="106" max-vertical-offset="2006">
+            <state line="55" column="74" selection-start="2150" selection-end="2150" vertical-scroll-proportion="0.6041667" vertical-offset="698" max-vertical-offset="2057">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RoomServices.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/services/RoomServices.java">
+      <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="59" column="37" selection-start="2175" selection-end="2175" vertical-scroll-proportion="0.0" vertical-offset="748" max-vertical-offset="1343">
+            <state line="31" column="39" selection-start="973" selection-end="973" vertical-scroll-proportion="0.0" vertical-offset="37" max-vertical-offset="833">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="roomDisplay.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/room/roomDisplay.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="41" selection-start="303" selection-end="303" vertical-scroll-proportion="-4.576923" vertical-offset="68" max-vertical-offset="391">
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="n#style#0;n#table#0;n#div#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -179,7 +185,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/bean/Client.java" />
         <option value="$PROJECT_DIR$/src/main/java/bean/Room.java" />
         <option value="$PROJECT_DIR$/src/main/java/rest/MyServices.java" />
         <option value="$PROJECT_DIR$/src/main/java/bean/Customer.java" />
@@ -212,7 +217,6 @@
         <option value="$PROJECT_DIR$/web/index.html" />
         <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/dataAccess/bean/Booking.java" />
-        <option value="$PROJECT_DIR$/web/index.js" />
         <option value="$PROJECT_DIR$/web/home/home.html" />
         <option value="$PROJECT_DIR$/web/customer/customer.css" />
         <option value="$PROJECT_DIR$/web/booking/booking.css" />
@@ -220,14 +224,18 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/web/booking/bookingList.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/services/BookingServices.java" />
-        <option value="$PROJECT_DIR$/web/booking/bookingCtrl.js" />
         <option value="$PROJECT_DIR$/src/main/java/com/services/CustomerServices.java" />
-        <option value="$PROJECT_DIR$/web/customer/customerCtrl.js" />
         <option value="$PROJECT_DIR$/src/main/java/com/services/RoomServices.java" />
-        <option value="$PROJECT_DIR$/web/room/roomCtrl.js" />
+        <option value="$PROJECT_DIR$/web/booking/booking.html" />
         <option value="$PROJECT_DIR$/web/room/room.html" />
         <option value="$PROJECT_DIR$/web/customer/customer.html" />
-        <option value="$PROJECT_DIR$/web/booking/booking.html" />
+        <option value="$PROJECT_DIR$/web/booking/bookingCtrl.js" />
+        <option value="$PROJECT_DIR$/web/booking/bookingDisplay.html" />
+        <option value="$PROJECT_DIR$/web/customer/customerDisplay.html" />
+        <option value="$PROJECT_DIR$/web/customer/customerCtrl.js" />
+        <option value="$PROJECT_DIR$/web/room/roomDisplay.html" />
+        <option value="$PROJECT_DIR$/web/index.js" />
+        <option value="$PROJECT_DIR$/web/room/roomCtrl.js" />
       </list>
     </option>
   </component>
@@ -350,24 +358,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="customer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WebServicesProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WebServicesProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="booking" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -383,6 +373,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -489,10 +483,6 @@
               <option name="myItemId" value="dataAccess" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dao" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -521,6 +511,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="dataAccess" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bean" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -924,7 +918,7 @@
       <workItem from="1425332804576" duration="1057000" />
       <workItem from="1425406055041" duration="7796000" />
       <workItem from="1425451616951" duration="35000" />
-      <workItem from="1425492174860" duration="13048000" />
+      <workItem from="1425492174860" duration="15344000" />
     </task>
     <task id="LOCAL-00001" summary="Bower Libraries">
       <created>1425088457948</created>
@@ -1090,11 +1084,15 @@
       <created>1425530466950</created>
       <updated>1425530466950</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="Update room OK&#10;">
+      <created>1425531728684</created>
+      <updated>1425531728684</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89915000" />
+    <option name="totallyTimeSpent" value="92211000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -1143,7 +1141,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="Bower Libraries" />
     <MESSAGE value="Bower Libraries&#10;" />
     <MESSAGE value="Ajout Update et Delete&#10;" />
     <MESSAGE value="SOUCI StateProvider&#10;" />
@@ -1168,7 +1165,8 @@
     <MESSAGE value="Amélioration de la partie Update&#10;+&#10;Format Date géré&#10;" />
     <MESSAGE value="Update booking OK&#10;" />
     <MESSAGE value="Update customer OK&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update customer OK&#10;" />
+    <MESSAGE value="Update room OK&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update room OK&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1178,21 +1176,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="29" selection-start="299" selection-end="299" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="901" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dataAccess/dao/CustomerDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="22" selection-start="1954" selection-end="1954" vertical-scroll-proportion="0.0" vertical-offset="1292" max-vertical-offset="1972" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dataAccess/dao/RoomDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="75" column="12" selection-start="1851" selection-end="1851" vertical-scroll-proportion="0.0" vertical-offset="1411" max-vertical-offset="1972" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/services/BookingServices.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="65" column="5" selection-start="1840" selection-end="1840" vertical-scroll-proportion="0.0" vertical-offset="1030" max-vertical-offset="1377" />
@@ -1300,21 +1283,6 @@
         <state line="7" column="46" selection-start="348" selection-end="348" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dataAccess/bean/Booking.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="5" selection-start="790" selection-end="790" vertical-scroll-proportion="0.75358164" vertical-offset="145" max-vertical-offset="680" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="77" selection-start="745" selection-end="745" vertical-scroll-proportion="0.43343654" vertical-offset="149" max-vertical-offset="510" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="14" selection-start="830" selection-end="830" vertical-scroll-proportion="0.0" vertical-offset="212" max-vertical-offset="629" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="64" selection-start="816" selection-end="816" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
@@ -1336,13 +1304,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/home/homeCtrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="8" selection-start="201" selection-end="201" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state line="31" column="0" selection-start="902" selection-end="902" vertical-scroll-proportion="-18.24" vertical-offset="71" max-vertical-offset="629">
@@ -1351,20 +1312,6 @@
       </provider>
       <provider editor-type-id="MarkdownPreviewEditor">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/home/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="6" selection-start="312" selection-end="312" vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="221">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/booking/bookingList.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="46" selection-start="457" selection-end="457" vertical-scroll-proportion="-7.1923075" vertical-offset="34" max-vertical-offset="442">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/dataAccess/dao/BookingDAO.java">
@@ -1402,13 +1349,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/services/BookingServices.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="0" selection-start="2643" selection-end="2643" vertical-scroll-proportion="0.0" vertical-offset="824" max-vertical-offset="1564">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/services/CustomerServices.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="36" column="33" selection-start="1144" selection-end="1173" vertical-scroll-proportion="0.0" vertical-offset="561" max-vertical-offset="1156">
@@ -1421,20 +1361,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/dataAccess/bean/Customer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="0" selection-start="212" selection-end="212" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/customer/customerCtrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="64" selection-start="2549" selection-end="2549" vertical-scroll-proportion="0.0" vertical-offset="904" max-vertical-offset="1972">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/booking/bookingCtrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="61" selection-start="481" selection-end="658" vertical-scroll-proportion="0.0" vertical-offset="107" max-vertical-offset="2448">
           <folding />
         </state>
       </provider>
@@ -1453,39 +1379,149 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/room/roomCtrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="50" selection-start="876" selection-end="876" vertical-scroll-proportion="0.0" vertical-offset="106" max-vertical-offset="2006">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/services/RoomServices.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="59" column="37" selection-start="2175" selection-end="2175" vertical-scroll-proportion="0.0" vertical-offset="748" max-vertical-offset="1343">
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/room/room.html">
+    <entry file="file://$PROJECT_DIR$/web/booking/booking.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="70" selection-start="1256" selection-end="1256" vertical-scroll-proportion="-6.1923075" vertical-offset="213" max-vertical-offset="765">
+        <state line="21" column="36" selection-start="1281" selection-end="1281" vertical-scroll-proportion="-4.5384617" vertical-offset="239" max-vertical-offset="901">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/customer/customer.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="75" selection-start="1236" selection-end="1236" vertical-scroll-proportion="-3.5384614" vertical-offset="265" max-vertical-offset="731">
+        <state line="19" column="37" selection-start="1034" selection-end="1034" vertical-scroll-proportion="-2.2307692" vertical-offset="265" max-vertical-offset="731">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/booking/booking.html">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/services/BookingServices.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="74" selection-start="1479" selection-end="1479" vertical-scroll-proportion="0.3419355" vertical-offset="285" max-vertical-offset="901">
+        <state line="34" column="33" selection-start="1170" selection-end="1170" vertical-scroll-proportion="0.0" vertical-offset="455" max-vertical-offset="1564">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dataAccess/bean/Booking.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="5" selection-start="790" selection-end="790" vertical-scroll-proportion="0.0" vertical-offset="145" max-vertical-offset="680">
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#513#514#0" expanded="false" />
+            <element signature="e#549#550#0" expanded="false" />
+            <element signature="e#587#588#0" expanded="false" />
+            <element signature="e#621#622#0" expanded="false" />
+            <element signature="e#674#675#0" expanded="false" />
+            <element signature="e#720#721#0" expanded="false" />
+            <element signature="e#755#756#0" expanded="false" />
+            <element signature="e#789#790#0" expanded="false" />
+            <element signature="e#839#840#0" expanded="false" />
+            <element signature="e#885#886#0" expanded="false" />
+            <element signature="e#921#922#0" expanded="false" />
+            <element signature="e#955#956#0" expanded="false" />
+            <element signature="e#1006#1007#0" expanded="false" />
+            <element signature="e#1052#1053#0" expanded="false" />
+            <element signature="e#1090#1091#0" expanded="false" />
+            <element signature="e#1126#1127#0" expanded="false" />
+            <element signature="e#1181#1182#0" expanded="false" />
+            <element signature="e#1231#1232#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/home/homeCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="8" selection-start="201" selection-end="201" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/home/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="6" selection-start="312" selection-end="312" vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="221">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/booking/bookingList.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="65" selection-start="586" selection-end="613" vertical-scroll-proportion="-10.461538" vertical-offset="0" max-vertical-offset="442">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="77" selection-start="745" selection-end="745" vertical-scroll-proportion="0.43343654" vertical-offset="149" max-vertical-offset="510">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/customer/customerDisplay.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="27" selection-start="315" selection-end="315" vertical-scroll-proportion="-6.5384617" vertical-offset="17" max-vertical-offset="340">
+          <folding>
+            <element signature="n#style#0;n#table#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/customer/customerCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="65" column="72" selection-start="2683" selection-end="2683" vertical-scroll-proportion="0.0" vertical-offset="916" max-vertical-offset="2006">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/booking/bookingDisplay.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="692" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="493">
+          <folding>
+            <element signature="n#style#0;n#table#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/room/room.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="33" selection-start="1071" selection-end="1071" vertical-scroll-proportion="-4.8846154" vertical-offset="213" max-vertical-offset="765">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="39" selection-start="973" selection-end="973" vertical-scroll-proportion="0.0" vertical-offset="37" max-vertical-offset="833">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/room/roomDisplay.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="41" selection-start="303" selection-end="303" vertical-scroll-proportion="-4.576923" vertical-offset="68" max-vertical-offset="391">
+          <folding>
+            <element signature="n#style#0;n#table#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/booking/bookingCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="45" selection-start="1013" selection-end="1046" vertical-scroll-proportion="0.0" vertical-offset="198" max-vertical-offset="2533">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/room/roomCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="74" selection-start="2150" selection-end="2150" vertical-scroll-proportion="0.6041667" vertical-offset="698" max-vertical-offset="2057">
           <folding />
         </state>
       </provider>

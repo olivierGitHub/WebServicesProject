@@ -1,0 +1,24 @@
+<div>
+    </br>
+    <h2>Booking selected:</h2>
+    </br>
+
+    <table style="width:40%;border: 1px solid black;margin-left: 20px">
+        <tr>
+            <td>Booking Number</td>
+            <td>{{bookingNumberSelected}}</td>
+        </tr>
+        <tr><td>Booking Name</td>
+            <td>{{bookingNameSelected}}</td>
+        </tr>
+        <tr> <td>Booking Room</td>
+            <td>{{bookingRoomSelected}}</td>
+        </tr>
+        <tr><td>Arrival Date</td>
+            <td>{{arrivalDateSelected | asDate | date:'shortDate'}}</td>
+        </tr>
+        <tr><td>Departure Date</td>
+            <td>{{departureDateSelected | asDate | date:'shortDate'}}</td>
+        </tr>
+    </table>
+</div>

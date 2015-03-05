@@ -13,6 +13,7 @@ angular.module('bookingApp', [])
         'use strict';
         $scope.listBooking = [];
         $scope.retrievedBooking=null;
+
         $scope.bookingNameU = $rootScope.bookingNameToUpdate;
         $scope.bookingRoomU = $rootScope.bookingRoomToUpdate;
         $scope.arrivalDateU = $rootScope.arrivalDateToUpdate;
@@ -23,6 +24,7 @@ angular.module('bookingApp', [])
         };
         $scope.readBooking = function(){
             bookingService.readBooking($scope.idBooking);
+            $state.go('home.bookingDisplay');
         };
         $scope.readBookingToUpdate = function(){
             bookingService.readBookingToUpdate($scope.idBookingU);
@@ -59,8 +61,11 @@ angular.module('bookingApp', [])
                 url: "http://localhost:8080/WebServicesProject/rest/booking/read",
                 params: {idBooking: idBooking}
             }).success(function(data){
-                    $rootScope.retrievedBooking = data;
-                    window.alert("Booking reading success OK");
+                    $rootScope.bookingNumberSelected = data.bookingNumber;
+                    $rootScope.bookingNameSelected = data.bookingName;
+                    $rootScope.bookingRoomSelected = data.bookingRoom;
+                    $rootScope.arrivalDateSelected = data.arrivalDate;
+                    $rootScope.departureDateSelected = data.departureDate;
             }).error(function(){
                     window.alert("Booking reading failed");
             });

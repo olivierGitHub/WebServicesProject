@@ -16,6 +16,7 @@ angular.module('roomApp', [])
         };
         $scope.readRoom = function(){
             roomService.readRoom($scope.idRoom);
+            $state.go('home.roomDisplay');
         };
         $scope.readRoomToUpdate = function(){
             roomService.readRoomToUpdate($scope.idRoomU);
@@ -49,8 +50,10 @@ angular.module('roomApp', [])
                 method: 'GET',
                 url: "http://localhost:8080/WebServicesProject/rest/room/read",
                 params: {idRoom: idRoom}
-            }).success(function(){
-                    window.alert("Room reading success OK");
+            }).success(function(data){
+                    $rootScope.roomNumberSelected = data.roomNumber;
+                    $rootScope.roomTypeSelected = data.roomType;
+                    $rootScope.roomDimensionSelected = data.roomDimension;
                 }).error(function(){
                     window.alert("Room reading failed");
                 });

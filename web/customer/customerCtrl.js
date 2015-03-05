@@ -15,6 +15,7 @@ angular.module('customerApp', [])
         };
         $scope.readCustomer = function(){
             customerService.readCustomer($scope.idCustomer);
+            $state.go('home.customerDisplay');
         };
         $scope.readCustomerToUpdate = function(){
             customerService.readCustomerToUpdate($scope.idCustomerU);
@@ -46,7 +47,9 @@ angular.module('customerApp', [])
                 method: 'GET',
                 url: "http://localhost:8080/WebServicesProject/rest/customer/read",
                 params: {idCustomer: idCustomer}
-            }).success(function(){
+            }).success(function(data){
+                    $rootScope.customerFirstnameSelected = data.firstName;
+                    $rootScope.customerLastnameSelected = data.lastName;
                     window.alert("Customer reading success OK");
                 }).error(function(){
                     window.alert("Customer reading failed");
@@ -61,7 +64,6 @@ angular.module('customerApp', [])
             }).success(function(data){
                     $rootScope.customerFirstnameToUpdate = data.firstName;
                     $rootScope.customerLastnameToUpdate = data.lastName;
-                    window.alert("Customer reading success OK");
                 }).error(function(){
                     window.alert("Customer reading failed");
                 });

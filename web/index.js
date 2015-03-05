@@ -19,13 +19,25 @@ angular.module('myApp', ['ui.router', 'customerApp', 'roomApp', 'bookingApp', 'h
                 url: '/customer',
                 templateUrl: 'customer/customer.html'
             })
+            .state('home.customerDisplay', {
+                url: '/customerDisplay',
+                templateUrl: 'customer/customerDisplay.html'
+            })
             .state('home.room', {
                 url: '/room',
                 templateUrl: 'room/room.html'
             })
+            .state('home.roomDisplay', {
+                url: '/roomDisplay',
+                templateUrl: 'room/roomDisplay.html'
+            })
             .state('home.booking', {
                 url: '/booking',
                 templateUrl: 'booking/booking.html'
+            })
+            .state('home.bookingDisplay', {
+                url: '/bookingDisplay',
+                templateUrl: 'booking/bookingDisplay.html'
             })
             .state('home.bookingList', {
                 url: '/bookingList',
