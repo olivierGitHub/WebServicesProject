@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdccdc2a-9c3d-4981-926d-0243692af73b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/booking/booking.html" afterPath="$PROJECT_DIR$/web/booking/booking.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/booking/bookingDisplay.html" afterPath="$PROJECT_DIR$/web/booking/bookingDisplay.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/booking/bookingList.html" afterPath="$PROJECT_DIR$/web/booking/bookingList.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -69,10 +68,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="71" selection-start="667" selection-end="667" vertical-scroll-proportion="0.7906977" vertical-offset="0" max-vertical-offset="510">
+            <state line="16" column="71" selection-start="667" selection-end="667" vertical-scroll-proportion="-10.461538" vertical-offset="0" max-vertical-offset="510">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bookingDisplay.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/booking/bookingDisplay.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="60" selection-start="668" selection-end="668" vertical-scroll-proportion="-8.346154" vertical-offset="123" max-vertical-offset="493">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bookingList.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/booking/bookingList.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="65" selection-start="710" selection-end="710" vertical-scroll-proportion="0.7790698" vertical-offset="21" max-vertical-offset="442">
               <folding />
             </state>
           </provider>
@@ -709,7 +726,7 @@
       <workItem from="1425406055041" duration="7796000" />
       <workItem from="1425451616951" duration="35000" />
       <workItem from="1425492174860" duration="20317000" />
-      <workItem from="1425544174132" duration="265000" />
+      <workItem from="1425544174132" duration="795000" />
     </task>
     <task id="LOCAL-00001" summary="Bower Libraries">
       <created>1425088457948</created>
@@ -907,11 +924,15 @@
       <created>1425538403459</created>
       <updated>1425538403459</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="MAJ format date&#10;&#10;'dd/MM/yyyy' remplace le 'shortDate'">
+      <created>1425544483337</created>
+      <updated>1425544483337</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="97449000" />
+    <option name="totallyTimeSpent" value="97979000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -960,7 +981,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="Ajout User CRUD ok&#10;&#10;Parameters sent using GET method&#10;pb update (learn to use object in Angular side)&#10;" />
     <MESSAGE value="Ajout Room CRUD ok&#10;&#10;Angular side OK&#10;Resteasy side OK&#10;Parameters sent using GET method&#10;pb update (learn to use object in Angular side)&#10;" />
     <MESSAGE value="Ajout BOOKING CRUD ok&#10;&#10;Angular side OK&#10;Resteasy side OK&#10;Parameters sent using GET method&#10;pb update (learn to use object in Angular side)&#10;" />
     <MESSAGE value="Ajout messages d'erreur&#10;" />
@@ -985,7 +1005,8 @@
     <MESSAGE value="MAJ Display of retrieved customer by id, room by id and booking by id&#10;" />
     <MESSAGE value="MAJ CSS Display of retrieved values&#10;" />
     <MESSAGE value="MAJ web services&#10;&#10;suppression des lignes inutiles&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="MAJ web services&#10;&#10;suppression des lignes inutiles&#10;" />
+    <MESSAGE value="MAJ format date&#10;&#10;'dd/MM/yyyy' remplace le 'shortDate'" />
+    <option name="LAST_COMMIT_MESSAGE" value="MAJ format date&#10;&#10;'dd/MM/yyyy' remplace le 'shortDate'" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1302,23 +1323,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/booking/bookingList.html">
+    <entry file="file://$PROJECT_DIR$/web/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="76" selection-start="130" selection-end="130" vertical-scroll-proportion="0.12686567" vertical-offset="0" max-vertical-offset="536">
+        <state line="16" column="71" selection-start="667" selection-end="667" vertical-scroll-proportion="-10.461538" vertical-offset="0" max-vertical-offset="510">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/booking/bookingDisplay.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="67" selection-start="673" selection-end="673" vertical-scroll-proportion="-13.076923" vertical-offset="0" max-vertical-offset="493">
+        <state line="20" column="60" selection-start="668" selection-end="668" vertical-scroll-proportion="-8.346154" vertical-offset="123" max-vertical-offset="493">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.html">
+    <entry file="file://$PROJECT_DIR$/web/booking/bookingList.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="71" selection-start="667" selection-end="667" vertical-scroll-proportion="0.7906977" vertical-offset="0" max-vertical-offset="510">
+        <state line="17" column="65" selection-start="710" selection-end="710" vertical-scroll-proportion="0.7790698" vertical-offset="21" max-vertical-offset="442">
           <folding />
         </state>
       </provider>
