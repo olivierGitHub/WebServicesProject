@@ -27,8 +27,8 @@
             <h3>Update a booking :</h3>
             <input type="text" ng-model="bookingNameU" name="bookingNameU" placeholder="{{bookingNameToUpdate}}" /></br>
             <input type="text" ng-model="bookingRoomU" name="bookingRoomU" placeholder="{{bookingRoomToUpdate}}" /></br>
-            <input type="text" ng-model="arrivalDateU" name="arrivalDateU" placeholder="{{arrivalDateToUpdate| asDate | date:'shortDate'}}" /></br>
-            <input type="text" ng-model="departureDateU" name="departureDateU" placeholder="{{departureDateToUpdate| asDate | date:'shortDate'}}" /></br></br>
+            <input type="text" ng-model="arrivalDateU" name="arrivalDateU" placeholder="{{arrivalDateToUpdate| asDate | date:'dd/MM/yyyy'}}" /></br>
+            <input type="text" ng-model="departureDateU" name="departureDateU" placeholder="{{departureDateToUpdate| asDate | date:'dd/MM/yyyy'}}" /></br></br>
             <input type="submit" class="submit" value="Update Booking" />
         </form>
     </div>

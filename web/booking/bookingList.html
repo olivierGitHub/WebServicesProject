@@ -14,8 +14,8 @@
             <td>{{booking.bookingNumber}}</td>
             <td>{{booking.bookingName}}</td>
             <td>{{booking.bookingRoom}}</td>
-            <td>{{booking.arrivalDate | asDate | date:'shortDate'}}</td>
-            <td>{{booking.departureDate | asDate | date:'shortDate'}}</td>
+            <td>{{booking.arrivalDate | asDate | date:'dd/MM/yyyy'}}</td>
+            <td>{{booking.departureDate | asDate | date:'dd/MM/yyyy'}}</td>
         </tr>
     </table>
 </div>
