@@ -5,23 +5,29 @@
 /*global angular*/
 angular.module('customerApp', [])
 
-    .controller('customerCtrl', ['$scope', '$state', 'customerService', function ($scope, $state, customerService) {
+    .controller('customerCtrl', ['$scope', '$rootScope', '$state', 'customerService', function ($scope, $rootScope, $state, customerService) {
         'use strict';
+        $scope.firstnameU = $rootScope.customerFirstnameToUpdate;
+        $scope.lastnameU = $rootScope.customerLastnameToUpdate;
+
         $scope.createCustomer = function(){
             customerService.createCustomer($scope.firstname, $scope.lastname);
         };
         $scope.readCustomer = function(){
             customerService.readCustomer($scope.idCustomer);
         };
+        $scope.readCustomerToUpdate = function(){
+            customerService.readCustomerToUpdate($scope.idCustomerU);
+        };
         $scope.updateCustomer = function(){
-            customerService.updateCustomer($scope.firstnameU, $scope.lastnameU);
+            customerService.updateCustomer($scope.idCustomerU,$scope.firstnameU, $scope.lastnameU);
         };
         $scope.deleteCustomer = function(){
             customerService.deleteCustomer($scope.idCustomerD);
         };
     }])
 
-    .service('customerService', function ($http){
+    .service('customerService', function ($http, $rootScope){
         'use strict';
         function create(firstname, lastname){
             $http({
@@ -47,11 +53,25 @@ angular.module('customerApp', [])
                 });
         }
 
-        function update(firstnameU, lastnameU){
+        function readToUpdate(idCustomerU){
+            $http({
+                method: 'GET',
+                url: "http://localhost:8080/WebServicesProject/rest/customer/readToUpdate",
+                params: {idCustomerU: idCustomerU}
+            }).success(function(data){
+                    $rootScope.customerFirstnameToUpdate = data.firstName;
+                    $rootScope.customerLastnameToUpdate = data.lastName;
+                    window.alert("Customer reading success OK");
+                }).error(function(){
+                    window.alert("Customer reading failed");
+                });
+        }
+
+        function update(idCustomerU,firstnameU, lastnameU){
             $http({
                 method: 'GET',
                 url :"http://localhost:8080/WebServicesProject/rest/customer/update",
-                params:{firstnameU:firstnameU, lastnameU:lastnameU}
+                params:{idCustomerU:idCustomerU,firstnameU:firstnameU, lastnameU:lastnameU}
             }).success(function(){
                     window.alert("Customer update success");
             }).error(function(){
@@ -78,8 +98,11 @@ angular.module('customerApp', [])
             readCustomer: function (idCustomer) {
                 read (idCustomer);
             },
-            updateCustomer: function(firstnameU, lastnameU){
-                update(firstnameU,lastnameU);
+            readCustomerToUpdate: function (idCustomerU) {
+                readToUpdate (idCustomerU);
+            },
+            updateCustomer: function(idCustomerU,firstnameU, lastnameU){
+                update(idCustomerU,firstnameU,lastnameU);
             },
             deleteCustomer: function(idCustomerD){
                 remove(idCustomerD);

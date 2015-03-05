@@ -16,10 +16,15 @@
         </form>
     </div>
     <div id="updateCustomer">
+        <form class="formCustomer" ng-submit="readCustomerToUpdate()">
+            <h3>Retrieve a customer To Update :</h3>
+            <input type="text" ng-model="idCustomerU" name="idCustomerU" placeholder="Customer id"/></br></br>
+            <input type="submit" class="submit" value="Read Customer To Update" />
+        </form></br></br>
         <form class="formCustomer" ng-submit="updateCustomer()">
-            <h3>Update a customer :</h3></br></br></br>
-            <input type="text" ng-model="firstnameU" name="firstnameU" placeholder="Firstname"/></br>
-            <input type="text" ng-model="lastnameU" name="lastnameU" placeholder="Lastname"/></br></br>
+            <h3>Update a customer :</h3></br>
+            <input type="text" ng-model="firstnameU" name="firstnameU" placeholder="{{customerFirstnameToUpdate}}"/></br>
+            <input type="text" ng-model="lastnameU" name="lastnameU" placeholder="{{customerLastnameToUpdate}}"/></br></br>
             <input type="submit" class="submit" value="Update Customer" />
         </form>
     </div>

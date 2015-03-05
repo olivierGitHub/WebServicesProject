@@ -33,10 +33,19 @@ public class CustomerServices {
     }
 
     @GET
+    @Path("/readToUpdate")
+    @Produces("application/json")
+    public Customer readCustomerToUpdate(@QueryParam("idCustomerU") int id){
+        return CustomerDAO.getInstance().read(id);
+    }
+
+    @GET
     @Path("/update")
     @Produces("text/html")
-    public String updateCustomer(@QueryParam("firstnameU") String firstnameU, @QueryParam("lastnameU") String lastnameU){
-        Customer customer2 = new Customer();
+    public String updateCustomer(@QueryParam("idCustomerU") int idCustomerU,
+                                 @QueryParam("firstnameU") String firstnameU,
+                                 @QueryParam("lastnameU") String lastnameU){
+        Customer customer2 = CustomerDAO.getInstance().read(idCustomerU);
             customer2.setFirstName(firstnameU);
             customer2.setLastName(lastnameU);
         CustomerDAO.getInstance().update(customer2);
