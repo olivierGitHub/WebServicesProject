@@ -48,9 +48,9 @@ angular.module('customerApp', [])
                 url: "http://localhost:8080/WebServicesProject/rest/customer/read",
                 params: {idCustomer: idCustomer}
             }).success(function(data){
+                    $rootScope.customerIdSelected = data.idCustomer;
                     $rootScope.customerFirstnameSelected = data.firstName;
                     $rootScope.customerLastnameSelected = data.lastName;
-                    window.alert("Customer reading success OK");
                 }).error(function(){
                     window.alert("Customer reading failed");
                 });

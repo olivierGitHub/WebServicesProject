@@ -51,6 +51,7 @@ angular.module('roomApp', [])
                 url: "http://localhost:8080/WebServicesProject/rest/room/read",
                 params: {idRoom: idRoom}
             }).success(function(data){
+                    $rootScope.roomIdSelected = data.idRoom;
                     $rootScope.roomNumberSelected = data.roomNumber;
                     $rootScope.roomTypeSelected = data.roomType;
                     $rootScope.roomDimensionSelected = data.roomDimension;
