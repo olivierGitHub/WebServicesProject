@@ -60,12 +60,20 @@ public class BookingServices {
     @GET
     @Path("/update")
     @Produces("text/html")
-    public String updateBooking(){
-        Booking booking2 =new Booking();
-            booking2.setBookingName("Andy");
-            booking2.setBookingRoom(1515);
-            booking2.setArrivalDate(new Date());
-            booking2.setDepartureDate(new Date());
+    public String updateBooking(@QueryParam("idBookingU") int idBooking,
+                                @QueryParam("bookingNameU") String bookingName,
+                                @QueryParam("bookingRoomU") int bookingRoom,
+                                @QueryParam("arrivalDateU") String arrivalDate,
+                                @QueryParam("departureDateU") String departureDate){
+        Booking booking2 =BookingDAO.getInstance().read(idBooking);
+        SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
+        try{
+            booking2.setBookingName(bookingName);
+            booking2.setBookingRoom(bookingRoom);
+            booking2.setArrivalDate(sdf.parse(arrivalDate));
+            booking2.setDepartureDate(sdf.parse(departureDate));
+        }catch(ParseException e){
+            e.printStackTrace();}
         BookingDAO.getInstance().update(booking2);
         return "<h3> Update Completed</h3>";
     }

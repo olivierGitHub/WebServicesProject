@@ -28,7 +28,7 @@ angular.module('bookingApp', [])
             bookingService.readBookingToUpdate($scope.idBookingU);
         };
         $scope.updateBooking = function(){
-            bookingService.updateBooking($scope.bookingNameU,$scope.bookingRoomU,$scope.arrivalDateU,$scope.departureDateU);
+            bookingService.updateBooking($scope.idBookingU,$scope.bookingNameU,$scope.bookingRoomU,$scope.arrivalDateU,$scope.departureDateU);
         };
         $scope.deleteBooking = function(){
             bookingService.deleteBooking($scope.idBookingD);
@@ -82,11 +82,11 @@ angular.module('bookingApp', [])
                 });
         }
 
-        function update(bookingNameU, bookingRoomU, arrivalDateU, departureDateU){
+        function update(idBookingU,bookingNameU, bookingRoomU, arrivalDateU, departureDateU){
             $http({
                 method: 'GET',
                 url :"http://localhost:8080/WebServicesProject/rest/booking/update",
-                params:{bookingNameU:bookingNameU, bookingRoomU:bookingRoomU, arrivalDateU:arrivalDateU, departureDateU:departureDateU}
+                params:{idBookingU:idBookingU, bookingNameU:bookingNameU, bookingRoomU:bookingRoomU, arrivalDateU:arrivalDateU, departureDateU:departureDateU}
             }).success(function(){
                     window.alert("Booking update success");
                 }).error(function(){
@@ -127,8 +127,8 @@ angular.module('bookingApp', [])
             readBookingToUpdate:function (idBookingU) {
                 readToUpdate(idBookingU);
             },
-            updateBooking: function(bookingNameU, bookingRoomU, arrivalDateU, departureDateU){
-                update(bookingNameU, bookingRoomU, arrivalDateU, departureDateU);
+            updateBooking: function(idBookingU,bookingNameU, bookingRoomU, arrivalDateU, departureDateU){
+                update(idBookingU,bookingNameU, bookingRoomU, arrivalDateU, departureDateU);
             },
             deleteBooking: function(idCustomerD){
                 remove(idCustomerD);
