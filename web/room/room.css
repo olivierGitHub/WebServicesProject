@@ -42,3 +42,5 @@
     margin-left: 20px;
 }
 
+#roomTable tr:nth-child(odd) {background: #FFCC66}
+#roomTable tr:nth-child(even) {background: #FFF}

@@ -42,3 +42,6 @@
     margin-left: 20px;
 }
 
+#customerTable tr:nth-child(odd) {background: #66FF99}
+#customerTable tr:nth-child(even) {background: #FFF}
+

@@ -67,5 +67,5 @@ td {
     margin-left: 10px;
 }
 
-tr:nth-child(odd) {background: #99CCFF}
-tr:nth-child(even) {background: #FFF}
+#bookingTable tr:nth-child(odd) {background: #99CCFF}
+#bookingTable tr:nth-child(even) {background: #FFF}
