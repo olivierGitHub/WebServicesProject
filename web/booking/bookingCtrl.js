@@ -3,14 +3,29 @@
  */
 /*global angular*/
 angular.module('bookingApp', [])
+    .filter("asDate", function () {
+        'use strict';
+        return function (input) {
+            return new Date(input);
+        };
+    })
     .controller('bookingCtrl', ['$scope', '$rootScope', '$state', 'bookingService', function ($scope, $rootScope, $state, bookingService) {
         'use strict';
         $scope.listBooking = [];
+        $scope.retrievedBooking=null;
+        $scope.bookingNameU = $rootScope.bookingNameToUpdate;
+        $scope.bookingRoomU = $rootScope.bookingRoomToUpdate;
+        $scope.arrivalDateU = $rootScope.arrivalDateToUpdate;
+        $scope.departureDateU = $rootScope.departureDateToUpdate;
+
         $scope.createBooking = function(){
             bookingService.createBooking($scope.bookingName,$scope.bookingRoom,$scope.arrivalDate,$scope.departureDate);
         };
         $scope.readBooking = function(){
             bookingService.readBooking($scope.idBooking);
+        };
+        $scope.readBookingToUpdate = function(){
+            bookingService.readBookingToUpdate($scope.idBookingU);
         };
         $scope.updateBooking = function(){
             bookingService.updateBooking($scope.bookingNameU,$scope.bookingRoomU,$scope.arrivalDateU,$scope.departureDateU);
@@ -43,11 +58,28 @@ angular.module('bookingApp', [])
                 method: 'GET',
                 url: "http://localhost:8080/WebServicesProject/rest/booking/read",
                 params: {idBooking: idBooking}
-            }).success(function(){
+            }).success(function(data){
+                    $rootScope.retrievedBooking = data;
                     window.alert("Booking reading success OK");
             }).error(function(){
                     window.alert("Booking reading failed");
             });
+        }
+
+        function readToUpdate(idBookingU){
+            $http({
+                method: 'GET',
+                url: "http://localhost:8080/WebServicesProject/rest/booking/readToUpdate",
+                params: {idBookingU: idBookingU}
+            }).success(function(data){
+                    $rootScope.bookingNameToUpdate = data.bookingName;
+                    $rootScope.bookingRoomToUpdate = data.bookingRoom;
+                    $rootScope.arrivalDateToUpdate = data.arrivalDate;
+                    $rootScope.departureDateToUpdate = data.departureDate;
+                    window.alert("Booking reading success OK");
+                }).error(function(){
+                    window.alert("Booking reading failed");
+                });
         }
 
         function update(bookingNameU, bookingRoomU, arrivalDateU, departureDateU){
@@ -89,8 +121,11 @@ angular.module('bookingApp', [])
             createBooking: function (bookingName, bookingRoom,arrivalDate, departureDate) {
                 create (bookingName, bookingRoom, arrivalDate, departureDate);
             },
-            readBooking: function (idCustomer) {
-                read (idCustomer);
+            readBooking: function (idBooking) {
+                read (idBooking);
+            },
+            readBookingToUpdate:function (idBookingU) {
+                readToUpdate(idBookingU);
             },
             updateBooking: function(bookingNameU, bookingRoomU, arrivalDateU, departureDateU){
                 update(bookingNameU, bookingRoomU, arrivalDateU, departureDateU);
@@ -100,7 +135,7 @@ angular.module('bookingApp', [])
             },
             readAllBooking: function(){
                 readAll();
-            }
-        };
+            }};
     }
 );
+     

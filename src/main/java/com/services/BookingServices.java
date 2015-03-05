@@ -51,6 +51,13 @@ public class BookingServices {
     }
 
     @GET
+    @Path("/readToUpdate")
+    @Produces("application/json")
+    public Booking readBookingToUpdate(@QueryParam("idBookingU") int idBookingU){
+        return BookingDAO.getInstance().read(idBookingU);
+    }
+
+    @GET
     @Path("/update")
     @Produces("text/html")
     public String updateBooking(){

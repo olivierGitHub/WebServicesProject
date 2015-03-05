@@ -18,12 +18,17 @@
         </form>
     </div>
     <div id="updateBooking">
+        <form class="formBooking" ng-submit="readBookingToUpdate()">
+            <h3>Retrieve a booking To Update :</h3></br></br></br>
+            <input type="text" ng-model="idBookingU" name="idBookingU" placeholder="Booking id"/></br></br>
+            <input type="submit" class="submit" value="Read Booking To Update" />
+        </form>
         <form class="formBooking" ng-submit="updateBooking()">
-            <h3>Update a booking :</h3></br></br></br>
-            <input type="text" ng-model="bookingNameU" name="bookingNameU" placeholder="Booking Name"/></br>
-            <input type="text" ng-model="bookingRoomU" name="bookingRoomU" placeholder="Booking Room Number"/></br>
-            <input type="text" ng-model="arrivalDateU" name="arrivalDateU" placeholder="Arrival Date dd/mm/yyyy"/></br>
-            <input type="text" ng-model="departureDateU" name="departureDateU" placeholder="Departure Date dd/mm/yyyy"/></br></br>
+            <h3>Update a booking :</h3></br>
+            <input type="text" ng-model="bookingNameU" name="bookingNameU" placeholder="{{bookingNameToUpdate}}" /></br>
+            <input type="text" ng-model="bookingRoomU" name="bookingRoomU" placeholder="{{bookingRoomToUpdate}}" /></br>
+            <input type="text" ng-model="arrivalDateU" name="arrivalDateU" placeholder="{{arrivalDateToUpdate| asDate | date:'shortDate'}}" /></br>
+            <input type="text" ng-model="departureDateU" name="departureDateU" placeholder="{{departureDateToUpdate| asDate | date:'shortDate'}}" /></br></br>
             <input type="submit" class="submit" value="Update Booking" />
         </form>
     </div>
