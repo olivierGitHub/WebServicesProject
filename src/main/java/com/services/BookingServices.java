@@ -50,6 +50,7 @@ public class BookingServices {
         return BookingDAO.getInstance().read(idBooking);
     }
 
+    /* Ce web service est utilisé UNIQUEMENT pour l’auto-complete de la VUE */
     @GET
     @Path("/readToUpdate")
     @Produces("application/json")

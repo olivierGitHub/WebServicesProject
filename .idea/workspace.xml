@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdccdc2a-9c3d-4981-926d-0243692af73b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/customer/customerCtrl.js" afterPath="$PROJECT_DIR$/web/customer/customerCtrl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/customer/customerDisplay.html" afterPath="$PROJECT_DIR$/web/customer/customerDisplay.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/room/roomCtrl.js" afterPath="$PROJECT_DIR$/web/room/roomCtrl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/room/roomDisplay.html" afterPath="$PROJECT_DIR$/web/room/roomDisplay.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/services/BookingServices.java" afterPath="$PROJECT_DIR$/src/main/java/com/services/BookingServices.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="WebServicesProject.iws" />
@@ -130,10 +127,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Room.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Room.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/dataAccess/bean/Room.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="13" selection-start="262" selection-end="262" vertical-scroll-proportion="0.3295129" vertical-offset="38" max-vertical-offset="612">
+            <state line="12" column="13" selection-start="262" selection-end="262" vertical-scroll-proportion="0.0" vertical-offset="38" max-vertical-offset="612">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BookingServices.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/services/BookingServices.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="52" column="78" selection-start="1904" selection-end="1904" vertical-scroll-proportion="0.19197708" vertical-offset="647" max-vertical-offset="1581">
               <folding />
             </state>
           </provider>
@@ -207,7 +213,6 @@
         <option value="$PROJECT_DIR$/web/home/homeCtrl.js" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/web/booking/bookingList.html" />
-        <option value="$PROJECT_DIR$/src/main/java/com/services/BookingServices.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/services/CustomerServices.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/services/RoomServices.java" />
         <option value="$PROJECT_DIR$/web/booking/booking.html" />
@@ -221,6 +226,7 @@
         <option value="$PROJECT_DIR$/web/booking/bookingDisplay.html" />
         <option value="$PROJECT_DIR$/web/room/roomDisplay.html" />
         <option value="$PROJECT_DIR$/web/room/roomCtrl.js" />
+        <option value="$PROJECT_DIR$/src/main/java/com/services/BookingServices.java" />
       </list>
     </option>
   </component>
@@ -307,7 +313,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -321,11 +327,67 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="room" />
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebServicesProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebServicesProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebServicesProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebServicesProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="services" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -729,7 +791,7 @@
       <workItem from="1425332804576" duration="1057000" />
       <workItem from="1425406055041" duration="7796000" />
       <workItem from="1425451616951" duration="35000" />
-      <workItem from="1425492174860" duration="15892000" />
+      <workItem from="1425492174860" duration="16527000" />
     </task>
     <task id="LOCAL-00001" summary="Bower Libraries">
       <created>1425088457948</created>
@@ -911,11 +973,15 @@
       <created>1425534159124</created>
       <updated>1425534159124</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="MAJ Display of retrieved customer by id, room by id and booking by id&#10;">
+      <created>1425534589756</created>
+      <updated>1425534589756</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92759000" />
+    <option name="totallyTimeSpent" value="93394000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -964,7 +1030,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="Ajout Update et Delete&#10;" />
     <MESSAGE value="SOUCI StateProvider&#10;" />
     <MESSAGE value="Ajout User creation&#10;&#10;&#10;Parameters sent using GET method&#10;" />
     <MESSAGE value="Ajout User CRUD ok&#10;&#10;Parameters sent using GET method&#10;pb update (learn to use object in Angular side)&#10;" />
@@ -989,7 +1054,8 @@
     <MESSAGE value="Update customer OK&#10;" />
     <MESSAGE value="Update room OK&#10;" />
     <MESSAGE value="Display of retrieved customer by id, room by id and booking by id OK&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Display of retrieved customer by id, room by id and booking by id OK&#10;" />
+    <MESSAGE value="MAJ Display of retrieved customer by id, room by id and booking by id&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="MAJ Display of retrieved customer by id, room by id and booking by id&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1211,13 +1277,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/services/BookingServices.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="33" selection-start="1170" selection-end="1170" vertical-scroll-proportion="0.0" vertical-offset="455" max-vertical-offset="1564">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/home/homeCtrl.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="8" selection-start="201" selection-end="201" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
@@ -1324,7 +1383,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/dataAccess/bean/Room.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="13" selection-start="262" selection-end="262" vertical-scroll-proportion="0.3295129" vertical-offset="38" max-vertical-offset="612">
+        <state line="12" column="13" selection-start="262" selection-end="262" vertical-scroll-proportion="0.0" vertical-offset="38" max-vertical-offset="612">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/services/BookingServices.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="78" selection-start="1904" selection-end="1904" vertical-scroll-proportion="0.19197708" vertical-offset="647" max-vertical-offset="1581">
           <folding />
         </state>
       </provider>
